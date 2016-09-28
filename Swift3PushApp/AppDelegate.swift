@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         //********** SDKの初期化 **********
         NCMB.setApplicationKey(applicationkey, clientKey: clientkey)
-        
+
         // デバイストークンの要求
         if #available(iOS 10.0, *){
             /** iOS10以上 **/
@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             center.requestAuthorization(options: [.alert, .badge, .sound]) {granted, error in
                 if error != nil {
                     // エラー時の処理
-                    
+
                     return
                 }
                 if granted {
@@ -39,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
             }
         } else {
-            /** iOS10未満 **/
+            /** iOS8以上iOS10未満 **/
             //通知のタイプを設定したsettingを用意
             let setting = UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
             //通知のタイプを設定
@@ -47,10 +47,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             //DevoceTokenを要求
             application.registerForRemoteNotifications()
         }
-        
+
         return true
     }
-    
+
     // デバイストークンが取得されたら呼び出されるメソッド
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         // 端末情報を扱うNCMBInstallationのインスタンスを作成
@@ -61,13 +61,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         installation.saveInBackground {error in
             if error != nil {
                 // 端末情報の登録に失敗した時の処理
-                
+
             } else {
                 // 端末情報の登録に成功した時の処理
-                
+
             }
         }
-        
+
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -94,4 +94,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
