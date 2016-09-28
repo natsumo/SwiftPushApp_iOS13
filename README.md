@@ -230,4 +230,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  * [Swift3(iOS10)] [--準備中--](http://mb.cloud.nifty.com/)
  * [Swift2(iOS9,8)] [Swiftでプッシュ通知を送ろう！](http://qiita.com/natsumo/items/8ffafee05cb7eb69d815)
 * 同じ内容の【Objective-C】版もご用意しています
- * [--準備中--](http://mb.cloud.nifty.com/)
+ * [ObjcPushApp_iOS10](https://github.com/natsumo/ObjcPushApp_iOS10)
