@@ -199,7 +199,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             //通知のタイプを設定
             application.registerUserNotificationSettings(setting)
             //DevoceTokenを要求
-            application.shared.registerForRemoteNotifications()
+            application.registerForRemoteNotifications()
         }
 
         return true
