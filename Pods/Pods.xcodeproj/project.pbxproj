@@ -1,4265 +1,812 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>055C1960D9D38379CF380D81F0F3DC00</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC240EE0FC73290ECB84A6EF0650C466</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0617591FBFF58E3473AF02B932CA3DD0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBOAHMAC_SHA1SignatureProvider.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAHMAC_SHA1SignatureProvider.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>069307F5105327531AC4FF100F99E00D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A9863C9647AEE9F9128183E3D6B9A6A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>06D7AC313E37DC814036DA38AC76955C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBCloseImageView.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBRichPush/NCMBCloseImageView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>074048119F6353C8C029506C5B69EFDF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67CBF764407212B5C621EA0A5A16D044</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>074D72612A28D5F12A983484EB1A161A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDB1E2F9372323912E45FCFA806C23C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>07C6C101B0CA046AB06CA10D79370D78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBRelation.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBRelation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0828BC64B80E95443A5EB69E695C94A9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4B9F3C186446FD9972720CEFE9D391C</string>
-				<string>3768F4E32BE99FB76815B3CC7198957F</string>
-				<string>97E84FA5CC6F2BEA74927C5223CED5F7</string>
-				<string>D07ADDD4CD6FBA75AF57A54F2327298B</string>
-				<string>7A2286365501CAF7221DAEAE828E815B</string>
-				<string>A2A70E357B7376E5FB5B529676774A5B</string>
-				<string>7E2DEFC8AEA5C172553853ACA0E6D1B4</string>
-				<string>6DE91549C8EEAC319FADA34850FE4243</string>
-				<string>871C38DD6AF3BF37E7A7DDC7CF7534EC</string>
-				<string>D4EF7807C357F2D45938DA62F4D76B59</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Swift3PushApp</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Swift3PushApp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>085B702B6963F42988FBCDA9CE8F8B80</key>
-		<dict>
-			<key>fileRef</key>
-			<string>46F50632B6B6588843A6C6B62FA86BB1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>094DCAFA38350890EC6410B5B36820FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBRemoveOperation.h</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBRemoveOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A4482E0D51A20C93370ABAD405680C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4004C20A1F2B36D2AFCCFC79C6AB2A21</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0BBF7098ACAD3DE3EF20576E281DDF11</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>NCMB.framework</string>
-			<key>path</key>
-			<string>NCMB.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0C52D65FB6BCDC60E5317C46DE526D20</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9E3E76DE1E749A543367F5E9DAD54165</string>
-				<string>24B9451779261D2665E34062B06D162A</string>
-				<string>0C82B8B349C1EA4CF2E17A464EE30B1D</string>
-				<string>8B94766F6F381C445C728D1FD219ED4E</string>
-				<string>E6729FFC5D03AABAA1E9825642D9DFC1</string>
-				<string>DB8BBDEE004D1A13501CD1A3B71C2E14</string>
-				<string>BB8B4E26478F6A57B24D45D46CC16D6C</string>
-				<string>085B702B6963F42988FBCDA9CE8F8B80</string>
-				<string>3F101C73FC2E5A20092226A21170BB64</string>
-				<string>DC97ECF64A204E0DFF88D46B4F8B333C</string>
-				<string>3E6D9B6C8B57BF69B7D108811D0662EE</string>
-				<string>055C1960D9D38379CF380D81F0F3DC00</string>
-				<string>1CCF170D482B270BACD33B6E7D9D4A74</string>
-				<string>93B9006CC957D8D86360294A9EDA7C70</string>
-				<string>31BEC441F764BCECBF0CC2A709E9569A</string>
-				<string>3E8687BD1691E0E313BD2D076528142A</string>
-				<string>66AA916C0B69C4E3E05C088583B0E8A7</string>
-				<string>1822F3FF5527C48ABD2EBB406C000BE7</string>
-				<string>FA386DF91F042861516BD3C8D7BE830A</string>
-				<string>E9F016A3C0FAC0DFB5BCC42E6F1891E6</string>
-				<string>2DAD2F51DF1544CCA6C1B3C284FEB332</string>
-				<string>42F67B347D43ED9CFCCF01DBB791D4CC</string>
-				<string>7CA937B449E2040380F9205468203CD0</string>
-				<string>62948052AABA02AE4C1EF6E1F444C0BB</string>
-				<string>4E8E390153907CA3B981CFA8EFBD0501</string>
-				<string>E74C0764E1AF65396036157984690F68</string>
-				<string>24ACE4E477AB961BE561C11279575355</string>
-				<string>77B6FE23094254CB81CEAC72988AFFCA</string>
-				<string>33EEFCBC2255B76ED2FD6D42A58371EB</string>
-				<string>FCE8E56641AC26C0BC56857A8565BAE6</string>
-				<string>9DC434E0F4D19B4B327D413263E627B6</string>
-				<string>CD4CE8901F7551B59AEA9F43DE26133C</string>
-				<string>2F10D94B34F38919A4471069DB7364FF</string>
-				<string>0A4482E0D51A20C93370ABAD405680C2</string>
-				<string>7F8436F9EF38498C3AE83A5679DDDAEE</string>
-				<string>E0505C40BE62F0F4453F1592E29DCB60</string>
-				<string>E486DF76BA44730FDC18CCB8DB682DBE</string>
-				<string>51667B57C7F46EE1A7DA0932182CAEA4</string>
-				<string>52F7EDAA70DC0D8A7D2F59775D36986F</string>
-				<string>6F8AA16297A7160EC4C3439E3156014D</string>
-				<string>6BA5C4929F943A825CE39593A5222069</string>
-				<string>E03748F483567AE56E61A3B24B0068EE</string>
-				<string>3587713E4BFB0160C88D0A1F13B9E575</string>
-				<string>54BE8B5A575B84C906A99F3C9148AF62</string>
-				<string>C1CBA9511B4C7ED9AEFC976BA9940252</string>
-				<string>73876097621555DA025192F85E174BE2</string>
-				<string>7B41398A177BE345529F6FFF02EFFD51</string>
-				<string>5EC095044124F637C2050B405B3E7E13</string>
-				<string>57E8C98CCFE7CBB0E1E576E549B880E2</string>
-				<string>8981992F2DA64E7D7B4805D8736E4D36</string>
-				<string>68509D3DE3C3A71C787834274D05EF6F</string>
-				<string>344164A9A1DCFB5A121DA52C0F61F349</string>
-				<string>D5013364DD2012D0E156429CDBB06F18</string>
-				<string>BCCBBB3F4CC2A42A44ECE1C0A2857E81</string>
-				<string>D64A5A149E1194182E8DBFF7ABB6E20A</string>
-				<string>D04DD17C3D315E3648603092A6814DDC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0C82B8B349C1EA4CF2E17A464EE30B1D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5385F861C1B8A0F307E37D3AB96E3FA7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0C82FD1750F57B1DCD1ADBF1184C1EA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3381BB90779596810CF6D1FB67BE4D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>0E544B56335C15EEBD51F39923109795</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBError.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBError.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>133BA713356B34C936B88DFCCFC49109</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8CC20575EE4FEA5C5B4778D6F0F84362</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/NCMB/NCMB-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/NCMB/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/NCMB/NCMB.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>NCMB</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>13912F50D5A2AAF4194C30AB1747C315</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CBD4E343DE50CB18FA20F57E7FEC69AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>13CE4453901E87A00C6286606099E2E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C7EAFD696C27B14E3D6ABEC76BF8C284</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>13D12B964B52C8EC831076C0BE18D9AF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBObject+Subclass.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBObject+Subclass.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1663CDBD612F3E538F5A2CD283FD11B5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4835D0896FD0C2D010AF46C672310F90</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>17459F2D0E965A9CA4334009F4AA4B7D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBTwitterUtils.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitterUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1822F3FF5527C48ABD2EBB406C000BE7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F7E72C6386E8A4C9B6B1BF85D5B27AF0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1B6433ED42AA1030EDAEBD351DC00D6A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9142AFF1585FAEC6B2C6A30BF932D2FA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>1C855C776BA6A7E40F2914C68DF98CB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7417553DBD7061817F7C6C3A4D2F45C0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>1CCF170D482B270BACD33B6E7D9D4A74</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0E544B56335C15EEBD51F39923109795</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1E3E59DF6D07EEB0A5625E8AF939F7A6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>NCMB</string>
-			<key>target</key>
-			<string>ADD68827273E35267923696DECDE8047</string>
-			<key>targetProxy</key>
-			<string>4B5AF80108AB7D0FF1E65EDDD0635B65</string>
-		</dict>
-		<key>1EB7B82ECEBF64E15D52E07229A36652</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBObject+Private.h</string>
-			<key>path</key>
-			<string>NCMB/PrivateHeaders/NCMBObject+Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F4C46EEA3D7597FE8189CE68C6F2369</key>
-		<dict>
-			<key>fileRef</key>
-			<string>390BB20E207626C293734C64B6722C4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>20B56609144CE204DFA8221F742B2D76</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>88BF03E95116620A1DC82CACBC096E40</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>22C8BB16998FC97A802EA5578E33010D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B851CF7ED848C956D997A9F7EED442DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>24AA1BC248A6662855F7FDFBEF5457E3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBOAConsumer.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAConsumer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>24ACE4E477AB961BE561C11279575355</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FBB6D513EE99AD95360BA071576D01D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>24B9451779261D2665E34062B06D162A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6EE573FE110D9541E3940B41517A52DC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>26FA8324AF92D801595CF22E44E2E3AA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBTwitterLoginView.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBTwitterLoginView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2914E5E19CAC8A8948B9A2FDCF3170EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C6A40E4621C5688FD2AD64DCB346353A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>2A3182A85227DF47E3D51A0CB257A5AF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D3094C411112C3AD752A09F00B49523</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>2CE16AC72762C01C5DC595053F1F2EF4</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_DEBUG=1</string>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2CE16AC72762C01C5DC595053F1F2EF4</string>
-				<string>C6544A1F1139551CE6C6C9B43404CFA3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2DAD2F51DF1544CCA6C1B3C284FEB332</key>
-		<dict>
-			<key>fileRef</key>
-			<string>60CCD48257666F7FBFE8DD497C140CEA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2DD3E82E3EBF9AF910387F4B3C577221</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBRelationOperation.m</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBRelationOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F10D94B34F38919A4471069DB7364FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8AD926FFFF30D35D43EC5F8028E2EB71</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>30EC9D889CE9D1C180576853D9D50BF5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBScriptService.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBScriptService/NCMBScriptService.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>31591EAB1B847E54FA6DE03AE9E068F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D8C38BCA20EEC551ABA1509D2C4843A</string>
-				<string>43DF0BB84D5F30EC1BC52CC2EF576005</string>
-				<string>8CC20575EE4FEA5C5B4778D6F0F84362</string>
-				<string>7700A734DA7F603591E805DE790E3CCB</string>
-				<string>42225C3DDE5128778EB1CE7FA284FF44</string>
-				<string>5385F861C1B8A0F307E37D3AB96E3FA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/NCMB</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>318CC8B56AFAE7FFA257ED10B162B642</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6DB7B34AD7A8415166CD91523828DC78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>31BEC441F764BCECBF0CC2A709E9569A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D7F5AB39196B9191A0B7D25A555B82D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3228DC0B292469DEF9456A02B4278381</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSDataBase64Encode.m</string>
-			<key>path</key>
-			<string>NCMB/NSDataBase64Encode/NSDataBase64Encode.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>33B7FDF9F73E458FADF44C4518C32737</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MobileCoreServices.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/MobileCoreServices.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>33BAABB7ABCADB42808F0C404B1E48C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7BCE529E90D6398686E25BF1D2C23A9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>33EEFCBC2255B76ED2FD6D42A58371EB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D12B964B52C8EC831076C0BE18D9AF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>344164A9A1DCFB5A121DA52C0F61F349</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B471E85E21D083BC62233012386F63CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3587713E4BFB0160C88D0A1F13B9E575</key>
-		<dict>
-			<key>fileRef</key>
-			<string>465C3576C97CA9CF536030D40D1CBA15</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3768F4E32BE99FB76815B3CC7198957F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Swift3PushApp.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>379A9B8BEF47AA01EDC3434CBF8FEE56</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3228DC0B292469DEF9456A02B4278381</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>3883EE509DF3AEC0653B94EFE6024CA5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBScript.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBScript.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>390BB20E207626C293734C64B6722C4A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBTwitterLoginView.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBTwitterLoginView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A0AE1A3562A6EE565A9BC6D8C9B25FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBAddOperation.h</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBAddOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3AAA0A3B9CD6886B5B2ED4F7D34396A9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>50B6A9BD59323FD0D4F115E548FAD44A</string>
-				<string>133BA713356B34C936B88DFCCFC49109</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3C03A1EDD2CE7A7D876A9A3D7AB52002</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DEDABE2CC30BACDBC74F9D94C2469186</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3D30D9673D453888EF59CB274E539968</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBReachability.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBReachability/NCMBReachability.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E6D9B6C8B57BF69B7D108811D0662EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>458FFF6362D33E29C376D817549D8855</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3E8687BD1691E0E313BD2D076528142A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9FFF7979DAC6D4A46D4DBCCC91DE51A1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3F101C73FC2E5A20092226A21170BB64</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A69F92C1D7052F4060EF8FEF44E381</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4004C20A1F2B36D2AFCCFC79C6AB2A21</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBReachability.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBReachability/NCMBReachability.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4080D9637F9C015C0F86768472042556</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBSubclassing.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBSubclassing.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41DEF68AEF397460A20B6624F4FAAAD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSURLBase.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSURLBase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>42225C3DDE5128778EB1CE7FA284FF44</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NCMB-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>42F67B347D43ED9CFCCF01DBB791D4CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0617591FBFF58E3473AF02B932CA3DD0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>43187367F181F0513139779C2D5B8EA0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBUser.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBUser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43650B7AD5004E5B56A2522A824FDCEA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBFacebookUtils+Private.h</string>
-			<key>path</key>
-			<string>NCMB/PrivateHeaders/NCMBFacebookUtils+Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43DF0BB84D5F30EC1BC52CC2EF576005</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>NCMB.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44CEA7E2191E3097473B25A6780494B9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0BBF7098ACAD3DE3EF20576E281DDF11</string>
-				<string>4709EB7CC67C846ED6AF3475E9D06F8D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>458FFF6362D33E29C376D817549D8855</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBConstants.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>465C3576C97CA9CF536030D40D1CBA15</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBScriptService.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBScriptService/NCMBScriptService.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46F50632B6B6588843A6C6B62FA86BB1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBAnalytics.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBAnalytics.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4709EB7CC67C846ED6AF3475E9D06F8D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Swift3PushApp.framework</string>
-			<key>path</key>
-			<string>Pods-Swift3PushApp.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>47E9A5A3552B3CA5BB51AFFF6DB0421C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33B7FDF9F73E458FADF44C4518C32737</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4835D0896FD0C2D010AF46C672310F90</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>48A975B44B1058198BE186ACAFB083DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBCA5C0000EE534D21DEAC3A70B4FF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>49A6B6842F11FB770221B0AD57FC8CD4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F90DFD115B426B4DACAD2C59518B8DE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>4A445D1386258B9493122630F25E2B74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBObject.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBObject.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B5AF80108AB7D0FF1E65EDDD0635B65</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>ADD68827273E35267923696DECDE8047</string>
-			<key>remoteInfo</key>
-			<string>NCMB</string>
-		</dict>
-		<key>4DD9E295A4112EC761B125ED07738975</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBACL.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBACL.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E8E390153907CA3B981CFA8EFBD0501</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9658E7831E02D569CE60B57BB7E5426</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>50B6A9BD59323FD0D4F115E548FAD44A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8CC20575EE4FEA5C5B4778D6F0F84362</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/NCMB/NCMB-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/NCMB/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/NCMB/NCMB.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>NCMB</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>515D719ABD60CB26CD651FC59B6C797C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BD946C5F23E39B877A14306F92DE35E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>51667B57C7F46EE1A7DA0932182CAEA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>094DCAFA38350890EC6410B5B36820FE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>51DF1D3B94C3C390A65279F00CA1822F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBRequest.h</string>
-			<key>path</key>
-			<string>NCMB/NCBMRequest/NCMBRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52F7EDAA70DC0D8A7D2F59775D36986F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>51DF1D3B94C3C390A65279F00CA1822F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5385F861C1B8A0F307E37D3AB96E3FA7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NCMB-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54BE8B5A575B84C906A99F3C9148AF62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A03B333776C948111CD335DFF0977B37</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>55D13234E44C3FB55EA5F8051D3395E2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B124DD8BB18CEBFD98C2A487ACE2BE9D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>56A89FAF031E961D899E3AE0D91A91D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSURLBase.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSURLBase.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57E8C98CCFE7CBB0E1E576E549B880E2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80275B3A79CD0B23675FE5336827020A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>58ED8C74158374752684470F58E9D615</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77740C3F13EB0B310ABFF84B6C49FAB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>5905FD91CD1691B992FF29CD05B5B599</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBRelation+Private.h</string>
-			<key>path</key>
-			<string>NCMB/PrivateHeaders/NCMBRelation+Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>595310CF420195657F384A4FF779CE19</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>55D13234E44C3FB55EA5F8051D3395E2</string>
-				<string>3C03A1EDD2CE7A7D876A9A3D7AB52002</string>
-				<string>47E9A5A3552B3CA5BB51AFFF6DB0421C</string>
-				<string>A0C57207C71459D46BB61EB50AF1A935</string>
-				<string>1663CDBD612F3E538F5A2CD283FD11B5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5A680E831EF0BC3E415CD8037C3DEC14</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBGeoPoint.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBGeoPoint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5ACE9574AB9B93547132C52E32D7CF10</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBOADataFetcher.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOADataFetcher.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5EC095044124F637C2050B405B3E7E13</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBC5F75244EE7DC9259AB5ED8357C2A7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>60CCD48257666F7FBFE8DD497C140CEA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBOADataFetcher.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOADataFetcher.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61C53AD85839F2DBB14A03635C8EF605</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBRelation.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBRelation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62948052AABA02AE4C1EF6E1F444C0BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2C8F88257DC9DC4525F9C621C04424B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>66AA916C0B69C4E3E05C088583B0E8A7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F7F0F897E052A6EFDC6BC060A4EA5112</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>67CBF764407212B5C621EA0A5A16D044</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBInstallation.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBInstallation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>68509D3DE3C3A71C787834274D05EF6F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B2A2EF063CB7E0371523F9A01C463722</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6BA5C4929F943A825CE39593A5222069</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C15A92A33049454EA461D2C6CAE0AE41</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6BD4099964B0B965406F2F31C7149809</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DEDABE2CC30BACDBC74F9D94C2469186</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6C0EB6029188EE2AE9AC95944C5235FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBFacebookUtils.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBFacebookUtils.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C565E9B5731079C0EAFCEA479EC5B9B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EDE7297E22B268BEE2BEACB8C2D85947</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6D40C4A52F1A97776667BDABF17F12BF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E68B893062F231E22C0C477AFC1D9BC2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>6DB7B34AD7A8415166CD91523828DC78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBError.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBError.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6DE91549C8EEAC319FADA34850FE4243</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Swift3PushApp-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E48E2D54B31189E2BBD84882C494BC3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6EE573FE110D9541E3940B41517A52DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>hmac.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/hmac.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F8AA16297A7160EC4C3439E3156014D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B06E4E3C04B2423A63D80C69E2E23A11</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6FDF158BE95D30E3DE65E49CF02C2E43</key>
-		<dict>
-			<key>fileRef</key>
-			<string>81ABA894251624A77740FE085BCE9420</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>706CC06AC4EF5E06710A813CE700D502</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBPush.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBPush.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73876097621555DA025192F85E174BE2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>26FA8324AF92D801595CF22E44E2E3AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7417553DBD7061817F7C6C3A4D2F45C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBDeleteOperation.m</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBDeleteOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>74B655DE379E9ACEC468FE30BDD5A994</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBCloseImageView.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBRichPush/NCMBCloseImageView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75C883B6AB75EA7577B8D2F9C430EA19</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSStringURLEncoding.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSStringURLEncoding.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7700A734DA7F603591E805DE790E3CCB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NCMB-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77740C3F13EB0B310ABFF84B6C49FAB0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBFile.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBFile.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77B6FE23094254CB81CEAC72988AFFCA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1EB7B82ECEBF64E15D52E07229A36652</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7A2286365501CAF7221DAEAE828E815B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Swift3PushApp-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A8E13955A1F840E82C5107D92B9C4E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C200BE6EB5BAD3E75776E780296E0626</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>7B41398A177BE345529F6FFF02EFFD51</key>
-		<dict>
-			<key>fileRef</key>
-			<string>17459F2D0E965A9CA4334009F4AA4B7D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7B6D38E00138025E656A94864CA3925E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FB83BC15D5BA44B06AA85967EBEE0D78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>7CA937B449E2040380F9205468203CD0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>840F14B736C953F38B746D766230EA67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>20B56609144CE204DFA8221F742B2D76</string>
-				<string>A248874E993148F82BDB6B9B9FF42AF5</string>
-				<string>44CEA7E2191E3097473B25A6780494B9</string>
-				<string>BFB6F9EBF97D4BD890C035458C5373EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7E2DEFC8AEA5C172553853ACA0E6D1B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Swift3PushApp-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7EE69EBCFCA645EEB6963599F8370EC1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B760FED0AB5FE2B3053C06BB752C8561</string>
-				<string>7F4FAD685052D50E6BE337027965AC03</string>
-				<string>9998C8977E48B019FE86E24F086B8388</string>
-				<string>6EE573FE110D9541E3940B41517A52DC</string>
-				<string>8E331551B68D5A439C8770595CD85BE4</string>
-				<string>81ABA894251624A77740FE085BCE9420</string>
-				<string>FB83BC15D5BA44B06AA85967EBEE0D78</string>
-				<string>4DD9E295A4112EC761B125ED07738975</string>
-				<string>A9863C9647AEE9F9128183E3D6B9A6A2</string>
-				<string>3A0AE1A3562A6EE565A9BC6D8C9B25FD</string>
-				<string>BD946C5F23E39B877A14306F92DE35E6</string>
-				<string>CD4719D6BAC269FC267FB9F65B2AC120</string>
-				<string>E61E18944F9F2BAD3C70591475CD5709</string>
-				<string>46F50632B6B6588843A6C6B62FA86BB1</string>
-				<string>D3381BB90779596810CF6D1FB67BE4D4</string>
-				<string>B7A69F92C1D7052F4060EF8FEF44E381</string>
-				<string>F90DFD115B426B4DACAD2C59518B8DE4</string>
-				<string>06D7AC313E37DC814036DA38AC76955C</string>
-				<string>74B655DE379E9ACEC468FE30BDD5A994</string>
-				<string>458FFF6362D33E29C376D817549D8855</string>
-				<string>FC240EE0FC73290ECB84A6EF0650C466</string>
-				<string>7417553DBD7061817F7C6C3A4D2F45C0</string>
-				<string>0E544B56335C15EEBD51F39923109795</string>
-				<string>6DB7B34AD7A8415166CD91523828DC78</string>
-				<string>D7F5AB39196B9191A0B7D25A555B82D2</string>
-				<string>6C0EB6029188EE2AE9AC95944C5235FB</string>
-				<string>43650B7AD5004E5B56A2522A824FDCEA</string>
-				<string>9FFF7979DAC6D4A46D4DBCCC91DE51A1</string>
-				<string>77740C3F13EB0B310ABFF84B6C49FAB0</string>
-				<string>F7F0F897E052A6EFDC6BC060A4EA5112</string>
-				<string>5A680E831EF0BC3E415CD8037C3DEC14</string>
-				<string>F7E72C6386E8A4C9B6B1BF85D5B27AF0</string>
-				<string>AA19D6F345FFC3A2D11ED7EFEE60C8B2</string>
-				<string>8EDB71E2CA9A6825F6DBF6F83981DA07</string>
-				<string>67CBF764407212B5C621EA0A5A16D044</string>
-				<string>24AA1BC248A6662855F7FDFBEF5457E3</string>
-				<string>CD6AA3B93ED53951AA57BF4CAA3B8832</string>
-				<string>60CCD48257666F7FBFE8DD497C140CEA</string>
-				<string>5ACE9574AB9B93547132C52E32D7CF10</string>
-				<string>0617591FBFF58E3473AF02B932CA3DD0</string>
-				<string>DBEC005DCC6AB79B98B95EB99B0EC7AC</string>
-				<string>840F14B736C953F38B746D766230EA67</string>
-				<string>9BAA0416027B4B3A43BB1BD6367F086C</string>
-				<string>A2C8F88257DC9DC4525F9C621C04424B</string>
-				<string>9D3094C411112C3AD752A09F00B49523</string>
-				<string>D9658E7831E02D569CE60B57BB7E5426</string>
-				<string>9142AFF1585FAEC6B2C6A30BF932D2FA</string>
-				<string>E633E6A793AF721CDFD58B7D466DDAD8</string>
-				<string>FBB6D513EE99AD95360BA071576D01D4</string>
-				<string>C200BE6EB5BAD3E75776E780296E0626</string>
-				<string>D3594F38DE8C45D82093C47D7143B5B3</string>
-				<string>4A445D1386258B9493122630F25E2B74</string>
-				<string>1EB7B82ECEBF64E15D52E07229A36652</string>
-				<string>13D12B964B52C8EC831076C0BE18D9AF</string>
-				<string>BD4A2B8E740459A4EDD9180A4993F317</string>
-				<string>706CC06AC4EF5E06710A813CE700D502</string>
-				<string>8AD926FFFF30D35D43EC5F8028E2EB71</string>
-				<string>C3788FC28B91BFCB886D74DE1E9E7113</string>
-				<string>9AA1217087BF25468D82891D698A81B1</string>
-				<string>4004C20A1F2B36D2AFCCFC79C6AB2A21</string>
-				<string>3D30D9673D453888EF59CB274E539968</string>
-				<string>61C53AD85839F2DBB14A03635C8EF605</string>
-				<string>07C6C101B0CA046AB06CA10D79370D78</string>
-				<string>5905FD91CD1691B992FF29CD05B5B599</string>
-				<string>F0AA1B5D39C93F37DEA0F6F9F43E73C4</string>
-				<string>2DD3E82E3EBF9AF910387F4B3C577221</string>
-				<string>094DCAFA38350890EC6410B5B36820FE</string>
-				<string>C7EAFD696C27B14E3D6ABEC76BF8C284</string>
-				<string>51DF1D3B94C3C390A65279F00CA1822F</string>
-				<string>B7BCE529E90D6398686E25BF1D2C23A9</string>
-				<string>B06E4E3C04B2423A63D80C69E2E23A11</string>
-				<string>E68B893062F231E22C0C477AFC1D9BC2</string>
-				<string>C15A92A33049454EA461D2C6CAE0AE41</string>
-				<string>B851CF7ED848C956D997A9F7EED442DD</string>
-				<string>3883EE509DF3AEC0653B94EFE6024CA5</string>
-				<string>DBCA5C0000EE534D21DEAC3A70B4FF7B</string>
-				<string>465C3576C97CA9CF536030D40D1CBA15</string>
-				<string>30EC9D889CE9D1C180576853D9D50BF5</string>
-				<string>A03B333776C948111CD335DFF0977B37</string>
-				<string>C837BF7777D764BEA6528E10484A310E</string>
-				<string>4080D9637F9C015C0F86768472042556</string>
-				<string>26FA8324AF92D801595CF22E44E2E3AA</string>
-				<string>390BB20E207626C293734C64B6722C4A</string>
-				<string>17459F2D0E965A9CA4334009F4AA4B7D</string>
-				<string>CBD4E343DE50CB18FA20F57E7FEC69AB</string>
-				<string>DBC5F75244EE7DC9259AB5ED8357C2A7</string>
-				<string>A1EAEEA63A9FB3FB0B992B1C8EB08C0F</string>
-				<string>CFC1B4B399DCFDB66B9BB7F64D88BEB4</string>
-				<string>43187367F181F0513139779C2D5B8EA0</string>
-				<string>80275B3A79CD0B23675FE5336827020A</string>
-				<string>B2A2EF063CB7E0371523F9A01C463722</string>
-				<string>3228DC0B292469DEF9456A02B4278381</string>
-				<string>B471E85E21D083BC62233012386F63CB</string>
-				<string>FDB1E2F9372323912E45FCFA806C23C9</string>
-				<string>9104CAD6EBB996CC2DDE7C893634CB97</string>
-				<string>75C883B6AB75EA7577B8D2F9C430EA19</string>
-				<string>41DEF68AEF397460A20B6624F4FAAAD7</string>
-				<string>56A89FAF031E961D899E3AE0D91A91D8</string>
-				<string>E6AE6CF17E1651A56D557167E8D2B22D</string>
-				<string>A95BDA8D8046E0AB2DBC2AE53DD11E7D</string>
-				<string>FED114FC1DB4C3979D3A500F0BF39DC7</string>
-				<string>C6A40E4621C5688FD2AD64DCB346353A</string>
-				<string>31591EAB1B847E54FA6DE03AE9E068F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NCMB</string>
-			<key>path</key>
-			<string>NCMB</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F4FAD685052D50E6BE337027965AC03</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Base64Transcoder.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/Base64Transcoder.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F8436F9EF38498C3AE83A5679DDDAEE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5905FD91CD1691B992FF29CD05B5B599</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>80275B3A79CD0B23675FE5336827020A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBUser+Private.h</string>
-			<key>path</key>
-			<string>NCMB/PrivateHeaders/NCMBUser+Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81ABA894251624A77740FE085BCE9420</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMB.m</string>
-			<key>path</key>
-			<string>NCMB/NCMB.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81F5CDEC316474235258729B140A5B14</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9998C8977E48B019FE86E24F086B8388</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>840F14B736C953F38B746D766230EA67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBOAMutableURLRequest.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAMutableURLRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85CE3E79EEEB6BF942C8642BD8FD9DDB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>43187367F181F0513139779C2D5B8EA0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>871C38DD6AF3BF37E7A7DDC7CF7534EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Swift3PushApp.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>879410A33D79D8B6BFF8E574425610DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D30D9673D453888EF59CB274E539968</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>88BF03E95116620A1DC82CACBC096E40</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B124DD8BB18CEBFD98C2A487ACE2BE9D</string>
-				<string>DEDABE2CC30BACDBC74F9D94C2469186</string>
-				<string>33B7FDF9F73E458FADF44C4518C32737</string>
-				<string>6E48E2D54B31189E2BBD84882C494BC3</string>
-				<string>4835D0896FD0C2D010AF46C672310F90</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8981992F2DA64E7D7B4805D8736E4D36</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CFC1B4B399DCFDB66B9BB7F64D88BEB4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8AD926FFFF30D35D43EC5F8028E2EB71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBQuery.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBQuery.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B94766F6F381C445C728D1FD219ED4E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E331551B68D5A439C8770595CD85BE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8CC20575EE4FEA5C5B4778D6F0F84362</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>NCMB.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E0A24E425D005FD23874D831D8CDC48</key>
-		<dict>
-			<key>fileRef</key>
-			<string>706CC06AC4EF5E06710A813CE700D502</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>8E331551B68D5A439C8770595CD85BE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMB.h</string>
-			<key>path</key>
-			<string>NCMB/NCMB.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8EDB71E2CA9A6825F6DBF6F83981DA07</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBInstallation.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBInstallation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9104CAD6EBB996CC2DDE7C893634CB97</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSStringURLEncoding.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSStringURLEncoding.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9142AFF1585FAEC6B2C6A30BF932D2FA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBOAServiceTicket.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAServiceTicket.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>93B9006CC957D8D86360294A9EDA7C70</key>
-		<dict>
-			<key>fileRef</key>
-			<string>43650B7AD5004E5B56A2522A824FDCEA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>97E84FA5CC6F2BEA74927C5223CED5F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Swift3PushApp-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>997635B97BACB31FC8BC0820AFADBCCF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75C883B6AB75EA7577B8D2F9C430EA19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9998C8977E48B019FE86E24F086B8388</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>hmac.c</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/hmac.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9AA1217087BF25468D82891D698A81B1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBQuery+Private.h</string>
-			<key>path</key>
-			<string>NCMB/PrivateHeaders/NCMBQuery+Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9AC384839446A364DE93437C6B282DD5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E61E18944F9F2BAD3C70591475CD5709</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9BAA0416027B4B3A43BB1BD6367F086C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBOAMutableURLRequest.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAMutableURLRequest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C2402C8AF7C7CD24A4D19CC2D3F172D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C51523CBCE4056EEBF8806D03D5E48A7</string>
-				<string>E9552CC07911BC037E64457DA8A1E2F8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9D3094C411112C3AD752A09F00B49523</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBOARequestParameter.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOARequestParameter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D4F27A0D00A45BA3831A41B56104EF1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6BD4099964B0B965406F2F31C7149809</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9D8C38BCA20EEC551ABA1509D2C4843A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DC434E0F4D19B4B327D413263E627B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BD4A2B8E740459A4EDD9180A4993F317</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9E3E76DE1E749A543367F5E9DAD54165</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7F4FAD685052D50E6BE337027965AC03</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9F40757145732D3E0E500745D40945E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>74B655DE379E9ACEC468FE30BDD5A994</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9FF5ABB1E52F432304CE6AF55C16A4C1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C0EB6029188EE2AE9AC95944C5235FB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9FFF7979DAC6D4A46D4DBCCC91DE51A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBFile.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBFile.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A03B333776C948111CD335DFF0977B37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBSetOperation.h</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBSetOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A0C57207C71459D46BB61EB50AF1A935</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E48E2D54B31189E2BBD84882C494BC3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A1EAEEA63A9FB3FB0B992B1C8EB08C0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBURLConnection.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBURLConnection/NCMBURLConnection.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A248874E993148F82BDB6B9B9FF42AF5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7EE69EBCFCA645EEB6963599F8370EC1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2A70E357B7376E5FB5B529676774A5B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Swift3PushApp-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2C8F88257DC9DC4525F9C621C04424B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBOARequestParameter.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOARequestParameter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A59AA56BB1286EAA1B28FD7206A3C629</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C23C02BEC78AB39B917F7D6266261098</string>
-				<string>81F5CDEC316474235258729B140A5B14</string>
-				<string>FC2132372F0B8EF4E0C37DC245E39D54</string>
-				<string>6FDF158BE95D30E3DE65E49CF02C2E43</string>
-				<string>7B6D38E00138025E656A94864CA3925E</string>
-				<string>069307F5105327531AC4FF100F99E00D</string>
-				<string>515D719ABD60CB26CD651FC59B6C797C</string>
-				<string>9AC384839446A364DE93437C6B282DD5</string>
-				<string>0C82FD1750F57B1DCD1ADBF1184C1EA6</string>
-				<string>49A6B6842F11FB770221B0AD57FC8CD4</string>
-				<string>9F40757145732D3E0E500745D40945E4</string>
-				<string>1C855C776BA6A7E40F2914C68DF98CB0</string>
-				<string>318CC8B56AFAE7FFA257ED10B162B642</string>
-				<string>9FF5ABB1E52F432304CE6AF55C16A4C1</string>
-				<string>58ED8C74158374752684470F58E9D615</string>
-				<string>B130AE9B62D185CD2FB4F7CFC4A6E59F</string>
-				<string>F46B0247F8E39DD2A57E76D80C249AF8</string>
-				<string>074048119F6353C8C029506C5B69EFDF</string>
-				<string>CB3697A98771524BBC32D870BE934587</string>
-				<string>B621D2955E26F671A3E64AE1913E7F3C</string>
-				<string>E6BD362AA7BACF06CAFC4F63BC1E8786</string>
-				<string>E502A7F8955CE843A3833B89265D5288</string>
-				<string>2A3182A85227DF47E3D51A0CB257A5AF</string>
-				<string>1B6433ED42AA1030EDAEBD351DC00D6A</string>
-				<string>7A8E13955A1F840E82C5107D92B9C4E0</string>
-				<string>AFF80AD21E56A04206B6751BC97F145B</string>
-				<string>8E0A24E425D005FD23874D831D8CDC48</string>
-				<string>C0194C071CD6885C0F5283C626C5482D</string>
-				<string>879410A33D79D8B6BFF8E574425610DB</string>
-				<string>E5EB7CD9E31A45AA08DB936FB72698A9</string>
-				<string>D81304ABD5B7C383C33087AF37450839</string>
-				<string>13CE4453901E87A00C6286606099E2E4</string>
-				<string>33BAABB7ABCADB42808F0C404B1E48C8</string>
-				<string>6D40C4A52F1A97776667BDABF17F12BF</string>
-				<string>22C8BB16998FC97A802EA5578E33010D</string>
-				<string>48A975B44B1058198BE186ACAFB083DB</string>
-				<string>AC68684262C20B31AF1CA78911D66BED</string>
-				<string>CCACC2F62DE5AD6126839CEEE76CE22C</string>
-				<string>1F4C46EEA3D7597FE8189CE68C6F2369</string>
-				<string>13912F50D5A2AAF4194C30AB1747C315</string>
-				<string>A817B6D987C749E1605816D27FB01B53</string>
-				<string>85CE3E79EEEB6BF942C8642BD8FD9DDB</string>
-				<string>379A9B8BEF47AA01EDC3434CBF8FEE56</string>
-				<string>074D72612A28D5F12A983484EB1A161A</string>
-				<string>997635B97BACB31FC8BC0820AFADBCCF</string>
-				<string>A6DCB13619C035AD407740910846F3DD</string>
-				<string>FD71D653F2B61604F1F459C713B89339</string>
-				<string>2914E5E19CAC8A8948B9A2FDCF3170EA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A6DCB13619C035AD407740910846F3DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>56A89FAF031E961D899E3AE0D91A91D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>A817B6D987C749E1605816D27FB01B53</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A1EAEEA63A9FB3FB0B992B1C8EB08C0F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>A95BDA8D8046E0AB2DBC2AE53DD11E7D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>sha1.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/sha1.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9863C9647AEE9F9128183E3D6B9A6A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBACL.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBACL.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA19D6F345FFC3A2D11ED7EFEE60C8B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBIncrementOperation.m</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBIncrementOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC68684262C20B31AF1CA78911D66BED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30EC9D889CE9D1C180576853D9D50BF5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>ADD68827273E35267923696DECDE8047</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3AAA0A3B9CD6886B5B2ED4F7D34396A9</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A59AA56BB1286EAA1B28FD7206A3C629</string>
-				<string>595310CF420195657F384A4FF779CE19</string>
-				<string>0C52D65FB6BCDC60E5317C46DE526D20</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>NCMB</string>
-			<key>productName</key>
-			<string>NCMB</string>
-			<key>productReference</key>
-			<string>0BBF7098ACAD3DE3EF20576E281DDF11</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>AF878C6CEB9BC0C2E3DF203DD73308A9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B462B25A38984D83852286753C93A3E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AFF80AD21E56A04206B6751BC97F145B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A445D1386258B9493122630F25E2B74</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B06E4E3C04B2423A63D80C69E2E23A11</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBRichPushView.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBRichPush/NCMBRichPushView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B124DD8BB18CEBFD98C2A487ACE2BE9D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AudioToolbox.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AudioToolbox.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B130AE9B62D185CD2FB4F7CFC4A6E59F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5A680E831EF0BC3E415CD8037C3DEC14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B2A2EF063CB7E0371523F9A01C463722</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSDataBase64Encode.h</string>
-			<key>path</key>
-			<string>NCMB/NSDataBase64Encode/NSDataBase64Encode.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B462B25A38984D83852286753C93A3E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A2286365501CAF7221DAEAE828E815B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B471E85E21D083BC62233012386F63CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSMutableURLRequestParameters.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSMutableURLRequestParameters.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B621D2955E26F671A3E64AE1913E7F3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5ACE9574AB9B93547132C52E32D7CF10</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B760FED0AB5FE2B3053C06BB752C8561</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Base64Transcoder.c</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/Base64Transcoder.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A69F92C1D7052F4060EF8FEF44E381</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBAnonymousUtils.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBAnonymousUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7BCE529E90D6398686E25BF1D2C23A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBRequest.m</string>
-			<key>path</key>
-			<string>NCMB/NCBMRequest/NCMBRequest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B851CF7ED848C956D997A9F7EED442DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBRole.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBRole.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB8B4E26478F6A57B24D45D46CC16D6C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CD4719D6BAC269FC267FB9F65B2AC120</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BCCBBB3F4CC2A42A44ECE1C0A2857E81</key>
-		<dict>
-			<key>fileRef</key>
-			<string>41DEF68AEF397460A20B6624F4FAAAD7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BD4A2B8E740459A4EDD9180A4993F317</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBPush.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBPush.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD946C5F23E39B877A14306F92DE35E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBAddOperation.m</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBAddOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFB6F9EBF97D4BD890C035458C5373EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0828BC64B80E95443A5EB69E695C94A9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0194C071CD6885C0F5283C626C5482D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C3788FC28B91BFCB886D74DE1E9E7113</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C15A92A33049454EA461D2C6CAE0AE41</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBRole.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBRole.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C1CBA9511B4C7ED9AEFC976BA9940252</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4080D9637F9C015C0F86768472042556</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C200BE6EB5BAD3E75776E780296E0626</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBOAToken.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAToken.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C23C02BEC78AB39B917F7D6266261098</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B760FED0AB5FE2B3053C06BB752C8561</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C3788FC28B91BFCB886D74DE1E9E7113</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBQuery.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBQuery.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4B9F3C186446FD9972720CEFE9D391C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C51523CBCE4056EEBF8806D03D5E48A7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>871C38DD6AF3BF37E7A7DDC7CF7534EC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Swift3PushApp/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Swift3PushApp/Pods-Swift3PushApp.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Swift3PushApp</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C6544A1F1139551CE6C6C9B43404CFA3</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_RELEASE=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C6A40E4621C5688FD2AD64DCB346353A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SubClassHandler.m</string>
-			<key>path</key>
-			<string>NCMB/SubClassHandler/SubClassHandler.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7EAFD696C27B14E3D6ABEC76BF8C284</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBRemoveOperation.m</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBRemoveOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C837BF7777D764BEA6528E10484A310E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBSetOperation.m</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBSetOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB3697A98771524BBC32D870BE934587</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CD6AA3B93ED53951AA57BF4CAA3B8832</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>CBD4E343DE50CB18FA20F57E7FEC69AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBTwitterUtils.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitterUtils.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCACC2F62DE5AD6126839CEEE76CE22C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C837BF7777D764BEA6528E10484A310E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>CD4719D6BAC269FC267FB9F65B2AC120</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBAddUniqueOperation.h</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBAddUniqueOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD4CE8901F7551B59AEA9F43DE26133C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9AA1217087BF25468D82891D698A81B1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CD6AA3B93ED53951AA57BF4CAA3B8832</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBOAConsumer.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAConsumer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CFC1B4B399DCFDB66B9BB7F64D88BEB4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBUser.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBUser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D04DD17C3D315E3648603092A6814DDC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FED114FC1DB4C3979D3A500F0BF39DC7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D07ADDD4CD6FBA75AF57A54F2327298B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Swift3PushApp-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3381BB90779596810CF6D1FB67BE4D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBAnalytics.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBAnalytics.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3594F38DE8C45D82093C47D7143B5B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBObject.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0720</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>44CEA7E2191E3097473B25A6780494B9</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>ADD68827273E35267923696DECDE8047</string>
-				<string>D7A1E4336BB06AFD8C6036CD0568B329</string>
-			</array>
-		</dict>
-		<key>D4EF7807C357F2D45938DA62F4D76B59</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Swift3PushApp.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D5013364DD2012D0E156429CDBB06F18</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9104CAD6EBB996CC2DDE7C893634CB97</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D64A5A149E1194182E8DBFF7ABB6E20A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A95BDA8D8046E0AB2DBC2AE53DD11E7D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D7A1E4336BB06AFD8C6036CD0568B329</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9C2402C8AF7C7CD24A4D19CC2D3F172D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>AF878C6CEB9BC0C2E3DF203DD73308A9</string>
-				<string>9D4F27A0D00A45BA3831A41B56104EF1</string>
-				<string>6C565E9B5731079C0EAFCEA479EC5B9B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>1E3E59DF6D07EEB0A5625E8AF939F7A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Swift3PushApp</string>
-			<key>productName</key>
-			<string>Pods-Swift3PushApp</string>
-			<key>productReference</key>
-			<string>4709EB7CC67C846ED6AF3475E9D06F8D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>D7F5AB39196B9191A0B7D25A555B82D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBFacebookUtils.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBFacebookUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D81304ABD5B7C383C33087AF37450839</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2DD3E82E3EBF9AF910387F4B3C577221</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>D9658E7831E02D569CE60B57BB7E5426</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBOAServiceTicket.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAServiceTicket.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DB8BBDEE004D1A13501CD1A3B71C2E14</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3A0AE1A3562A6EE565A9BC6D8C9B25FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DBC5F75244EE7DC9259AB5ED8357C2A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBURLConnection.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBURLConnection/NCMBURLConnection.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBCA5C0000EE534D21DEAC3A70B4FF7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBScript.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBScript.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBEC005DCC6AB79B98B95EB99B0EC7AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBOAHMAC_SHA1SignatureProvider.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAHMAC_SHA1SignatureProvider.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC97ECF64A204E0DFF88D46B4F8B333C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06D7AC313E37DC814036DA38AC76955C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DEDABE2CC30BACDBC74F9D94C2469186</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E03748F483567AE56E61A3B24B0068EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3883EE509DF3AEC0653B94EFE6024CA5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E0505C40BE62F0F4453F1592E29DCB60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61C53AD85839F2DBB14A03635C8EF605</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E486DF76BA44730FDC18CCB8DB682DBE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F0AA1B5D39C93F37DEA0F6F9F43E73C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E502A7F8955CE843A3833B89265D5288</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9BAA0416027B4B3A43BB1BD6367F086C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E5EB7CD9E31A45AA08DB936FB72698A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>07C6C101B0CA046AB06CA10D79370D78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E61E18944F9F2BAD3C70591475CD5709</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBAddUniqueOperation.m</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBAddUniqueOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E633E6A793AF721CDFD58B7D466DDAD8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBOASignatureProviding.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOASignatureProviding.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6729FFC5D03AABAA1E9825642D9DFC1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD9E295A4112EC761B125ED07738975</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E68B893062F231E22C0C477AFC1D9BC2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBRichPushView.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBRichPush/NCMBRichPushView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6AE6CF17E1651A56D557167E8D2B22D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>sha1.c</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/sha1.c</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6BD362AA7BACF06CAFC4F63BC1E8786</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBEC005DCC6AB79B98B95EB99B0EC7AC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E74C0764E1AF65396036157984690F68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E633E6A793AF721CDFD58B7D466DDAD8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E9552CC07911BC037E64457DA8A1E2F8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D4EF7807C357F2D45938DA62F4D76B59</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Swift3PushApp/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Swift3PushApp/Pods-Swift3PushApp.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Swift3PushApp</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E9F016A3C0FAC0DFB5BCC42E6F1891E6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24AA1BC248A6662855F7FDFBEF5457E3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EDE7297E22B268BEE2BEACB8C2D85947</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6DE91549C8EEAC319FADA34850FE4243</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F0AA1B5D39C93F37DEA0F6F9F43E73C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBRelationOperation.h</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBRelationOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F46B0247F8E39DD2A57E76D80C249AF8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA19D6F345FFC3A2D11ED7EFEE60C8B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>F7E72C6386E8A4C9B6B1BF85D5B27AF0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBIncrementOperation.h</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBIncrementOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F7F0F897E052A6EFDC6BC060A4EA5112</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBGeoPoint.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBGeoPoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F90DFD115B426B4DACAD2C59518B8DE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMBAnonymousUtils.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBAnonymousUtils.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA386DF91F042861516BD3C8D7BE830A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8EDB71E2CA9A6825F6DBF6F83981DA07</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FB83BC15D5BA44B06AA85967EBEE0D78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NCMB_Twitter.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMB_Twitter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FBB6D513EE99AD95360BA071576D01D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBOAToken.h</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAToken.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC2132372F0B8EF4E0C37DC245E39D54</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7700A734DA7F603591E805DE790E3CCB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC240EE0FC73290ECB84A6EF0650C466</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NCMBDeleteOperation.h</string>
-			<key>path</key>
-			<string>NCMB/Operations/NCMBDeleteOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FCE8E56641AC26C0BC56857A8565BAE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3594F38DE8C45D82093C47D7143B5B3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FD71D653F2B61604F1F459C713B89339</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E6AE6CF17E1651A56D557167E8D2B22D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>FDB1E2F9372323912E45FCFA806C23C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSMutableURLRequestParameters.m</string>
-			<key>path</key>
-			<string>NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSMutableURLRequestParameters.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FED114FC1DB4C3979D3A500F0BF39DC7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SubClassHandler.h</string>
-			<key>path</key>
-			<string>NCMB/SubClassHandler/SubClassHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E15440CD3D50BB5FAD85E0FB6DA932 /* NCMBRemoveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F39760302D1A127A3A7943D85B9B9AC /* NCMBRemoveOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C355FA48CE49847355EBCAD7B224272 /* NCMBURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F87F94B9231BBDDCDB03DB64683172A /* NCMBURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E9BD4FBAF9987382CC772609D86DB13 /* NCMBObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD38D141168172D5662AD80BD10E19E /* NCMBObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		159CD37BBF2F693BB2042F344B17B1E1 /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = F254E6ED43AF518280A8D7C7FE38CBB5 /* NCMBRole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17720328EF5FEDEFA41ADEF4C6CCBB47 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 610984FCAEF583DE5D7624B9DD2A82B8 /* NCMBIncrementOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1FAE93F859FE64A168DE35F19BC8D513 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB1EE8ABD08C784BAB3DB93A4F21607 /* NCMBReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20356D3F0262FB767E684035681AFA31 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEAD17827C37B73DD3153FF09BE379A /* NCMBRemoveOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2096D8115A5F6AAD268A787DCE482D33 /* NCMB.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5138075FBF96B42EEB28DC88CB2DD2 /* NCMB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2279BF15CD71331FABF731AB42D78B38 /* NCMBDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F497F2B410E28EFDEB54A6B863E62F /* NCMBDeleteOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2808322C4BB5BCD02D23CB760947FCB5 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A88E050E637E33D59AA02653E3D2F3 /* NCMBRelation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29701D12005AC21E82560FBA7BB4F7A6 /* NCMBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D35036070C4C26CBC2D63EE3404814C /* NCMBURLConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33CC5DFE0F55F1D4E9B0CF1712EE860F /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A0CF12A8DDD86D3E9E08F16E6F8F3D /* NCMBDeleteOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		34E5EAF2DCFDF32D2CE9376730A36F52 /* NCMBError.h in Headers */ = {isa = PBXBuildFile; fileRef = FE29DD46B66F06C84C0B3126C12C6327 /* NCMBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37E18DA597B2F67C8A11C0D3BE14099E /* NCMBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = AA928F4C553C1B5C283E157DF5208F01 /* NCMBRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A4F1716457789A4AF19B7C10F10556A /* NCMBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = C606B2C8DA3E0025A89250A1CF7EF3EA /* NCMBAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B209371C3AA67A0F8780E3E67E4AFB /* Pods-Swift3PushApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2286365501CAF7221DAEAE828E815B /* Pods-Swift3PushApp-dummy.m */; };
+		493444E0D6FCA6A71DE1B3877130038A /* NCMBACL.h in Headers */ = {isa = PBXBuildFile; fileRef = 101B7517A53E5D057BB6A0D5A7F2EA87 /* NCMBACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A01E83F14B50265FB47C573AEF06214 /* NCMBSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D7F9CE2B28C0E815C6FF6447382A99 /* NCMBSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A2E53A8FBFFA279412993BF6AF93060 /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 247116A5FFA45332A1D32D70E51088F2 /* NCMBAddOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4A9825C8A17013F9DC261A6CBFA41551 /* NCMBScriptService.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A2C7E7F81ACA8B7C9D95D4AA53221F /* NCMBScriptService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51C38CB478FCE59983AA9A8B61653CF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588D32349746CA93B39160C83609FC6 /* Foundation.framework */; };
+		53D7B41F3D8EC8AD9D0DAEE8B49A1452 /* NCMBGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8093C08EF66ED363A53E698F8DA59B17 /* NCMBGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5653B3BBC6E8232BB9F1F5AE6B80BDBD /* NSDataBase64Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9ECE67D13EAD7EEA344316646CD8BB /* NSDataBase64Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D4D874D02AAC223402DDB5E15D5BBB4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF901B1AB8CB53DE98DF99793691620 /* SystemConfiguration.framework */; };
+		5D652445392CD71E7C2D477F59D060C2 /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF2DFE0AFFD20122AA7F8F374BD626 /* NCMBRelationOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5F5341ABF433C8952F36281C077AEDDF /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = D57A5E6DC5454A0E83DFBE71B96D6D9E /* NCMBScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		601B2716F8BBA8EE676CD30F9988F83B /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE6162C8F348B4EA84E2C39D279590D /* NCMBQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6157B0DB64D1F5F25761FA7809642ADC /* NCMBAddUniqueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E14938A938BA2E6D67E7E564F93CAC /* NCMBAddUniqueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D776FE30E45A10C3C7437F3BD09E9A6 /* Pods-Swift3PushApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE91549C8EEAC319FADA34850FE4243 /* Pods-Swift3PushApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		705EF8B204DEF9AF5120F8786AB78731 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F910D32B3C2697B0C8E0793589622DC2 /* SubClassHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73F7A7C1128293FB3337B00DB4E6D7FD /* NCMBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0555B692D956D185AD0793B1950ECE /* NCMBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75D27ADE25AE5A50A161CE81D0DE8F02 /* NCMBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC66A168601E9945DD582015EC5CB00 /* NCMBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766F3FC4A9A22E8BA549B6033439B04A /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EDFC048CAFCA59A916178CCC313DCC /* NCMBAnonymousUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		78BEDB8500ACC2D5577AA93341D5C7C7 /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBFB2A4636CD900AF421725D92F1814 /* NCMBCloseImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		78C74C8796710CF62709537273CBD0FB /* NCMBPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B313295372C7B24906A61DEF6055C0 /* NCMBPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A855AA9ED5E7BED5FFEC7371C0CEDF9 /* NCMBAddOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0D4CE2EA2281E7E5D0D6775085B7D7 /* NCMBAddOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8070292F24624250EDF68E077F4A152F /* NCMBIncrementOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1247F36C5DE64C507D521318E6C0139C /* NCMBIncrementOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8407018F7F5C5C679AF4624D8BEFDFF8 /* NCMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EF823DEC52A8F00360C86118473763 /* NCMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E245E75024F13EFDC3E6E6E1C275F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4E83A5D3C5750C5C299D1F7EC5B190 /* UIKit.framework */; };
+		86FEB0D7563DEC1185EE15B87D00A08B /* NCMBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F074E6107ED446EDB00635DEACC7659 /* NCMBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8840863C36642D7E45027591ACDD4B4E /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 279614363C301031ECB3F06AC027D70D /* NCMBAddUniqueOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		898C9B81C3BD4A9B5C109D50D5A9A374 /* NCMBRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEB6413174CA227890A285B33A5304B /* NCMBRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BE519FE701E2428284D044087777CBD /* SubClassHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C87A543752014EE7D8DA4E2AD54AA57D /* SubClassHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E234C8185447FB0172BCD3E65371C69 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1069ABABFC92ADE78328EC86411D65E5 /* NCMBGeoPoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		943AC49A48A8EB533E34D6D066BE8442 /* NCMBAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 41016A8D456AF3CF1A721450A2BCBCF1 /* NCMBAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		975BFE337EC54361ADF6B66B5F35F735 /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93176DC97C8065B9AF6766C6F992922C /* NCMBObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A9B1F9827DF7D1C6C7C45AE9F644A5B /* NCMBRelation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 001E220C6FBB1A1EB9373EB9110F59FD /* NCMBRelation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8CE17D0933C8F8C3C733CF2DB8B660 /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F0AF9B4EA6C6633060684BB2BE0AA4 /* NCMBUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4E8D8CAD679F48371F068FEDA181929 /* NCMBObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA77A99E44BC4C0DCA47BA391D7500F /* NCMBObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F28CC862068D6B3510B92ACEC63E29 /* NCMBQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B953A1FAFE354EE4EBD073758D1C0BE4 /* NCMBQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B077B7862F483093B1C7EFC18017E0D6 /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CA4A98882A6A33059E16D2437DA5B /* NCMBFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B0A10F3CB140FE1069C04F877C6FD499 /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E736CC90B265E839A531D1E8E66175 /* NCMB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B104B284B35E1AF54B2045A2324D8990 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D535AAC8201F0BE4044FAB8B416232A /* AudioToolbox.framework */; };
+		B19D3FAC65FE0BD872DDB0B61C306A3C /* NCMBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E081050E298B20E48B460B0413A8114 /* NCMBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B690E31483F8D27B005ADDD9E3E1D977 /* NCMBRelationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC63913746CABAE2F8F46D3149A641A /* NCMBRelationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9A27097F17D0822FD5DF3CD5E084585 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE165B160398772F2C1093505A892C9 /* NCMBACL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BA211F3FB9BBC078E871674FDC990F92 /* NCMBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = DE25BA6B82B8C950DC374F3A58886591 /* NCMBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF609EB584818B9AF2753D041B6F03C1 /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F080D66676F74F321E8A7551502BBC1 /* NCMBSetOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C0522502D244826DCFBBD5D93E3D4F15 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1B990C53F0483CD1B0B78700639753 /* MobileCoreServices.framework */; };
+		C489D6BC3E48C6FCF243ED26D5FF1370 /* NCMBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 3136C2B53F317DC0A56C799DC32943AC /* NCMBQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D4580DB0B6572E43DC8F0674B1CB10 /* NCMBRichPushView.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8ACEB4BEA32BB84E8E3064DF218B4 /* NCMBRichPushView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82A13FE9D7E5E102D37F31D90CE6821 /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EA0077E5BA8956E5988776D0DD70B7 /* NCMBScriptService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CE02C27BB0183FFB8BAB0CFFCA568790 /* NCMBSetOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9B11E630B77038FB9E69E507E12EB7 /* NCMBSetOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1D630606C72F8418C7DDF2DC02E97C1 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = AA651E187B03CB9BBD1F7478859DFF15 /* NCMBAnalytics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DB4F79B179749668213A126EC7B6D9CD /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A27759E853888778255FAB18E79FE4E /* NCMBError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DF0AB1E1CAD8C62FFBFF3A1F6F89A2A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588D32349746CA93B39160C83609FC6 /* Foundation.framework */; };
+		DF2640647635305E3A49803BAB09E8E7 /* NCMBCloseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = B33AA84133692BC2916F1BAF10EEC981 /* NCMBCloseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA94FE1C2D2BCFBA529F65EDA825F9F /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCBBA0B98E52286680004194363DF4 /* NCMBRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E04BF9F128C896D52C37FAB0FD876F8B /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79743538AA5643457E223A4D8B0A8E5C /* NCMBRichPushView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E362E5C9C34203B788EC22CD24B280EA /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C4B1CA74E42B771F776773ECE8CEC3 /* NSDataBase64Encode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5B5F9371EEA6908395F6B5943DA6D49 /* NCMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9242EEDA128846550E92F2D2981592E /* NCMB-dummy.m */; };
+		EAEB5592DB8230E8D73AE6CDE0CF83F7 /* NCMBUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7CF8CCC9422035524F8C56D2B0AD6C /* NCMBUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBE41204C558E448A4B8C0693434864E /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F4880E3F82693DA15A454E2B8FD2C /* NCMBPush.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF4AA8F50C3775EF6E52795F2856AB04 /* NCMBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B72A947F3F712BD7C6D863DEC53BB1 /* NCMBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F842B22C29CE2CD95E6DC58E1D01741F /* NCMBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E77D49C4D6605B73B53555214233CD /* NCMBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB5258DC13A0324773C4794065D68D21 /* NCMBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3246F1EB324C2EEB09DE325E93347546 /* NCMBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC17DE41C1E17EE97EDEC74E2A53547B /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF184CD6A3144F78AE2BA121A8E98 /* NCMBInstallation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCBF4C964C119AFF04D1D8F538B8680D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECA600E8117381111025D74E657B487;
+			remoteInfo = NCMB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001E220C6FBB1A1EB9373EB9110F59FD /* NCMBRelation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBRelation+Private.h"; path = "NCMB/PrivateHeaders/NCMBRelation+Private.h"; sourceTree = "<group>"; };
+		00AC4E0C3A1BF0D9CE3634E7ADE58543 /* NCMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NCMB.modulemap; sourceTree = "<group>"; };
+		044CA4A98882A6A33059E16D2437DA5B /* NCMBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFile.m; path = NCMB/NCMBFile.m; sourceTree = "<group>"; };
+		05C4B1CA74E42B771F776773ECE8CEC3 /* NSDataBase64Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataBase64Encode.m; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.m; sourceTree = "<group>"; };
+		0AE165B160398772F2C1093505A892C9 /* NCMBACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBACL.m; path = NCMB/NCMBACL.m; sourceTree = "<group>"; };
+		0BBF7098ACAD3DE3EF20576E281DDF11 /* NCMB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NCMB.framework; path = NCMB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D35036070C4C26CBC2D63EE3404814C /* NCMBURLConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBURLConnection.m; path = NCMB/NCMBURLConnection/NCMBURLConnection.m; sourceTree = "<group>"; };
+		101B7517A53E5D057BB6A0D5A7F2EA87 /* NCMBACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBACL.h; path = NCMB/NCMBACL.h; sourceTree = "<group>"; };
+		1069ABABFC92ADE78328EC86411D65E5 /* NCMBGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBGeoPoint.m; path = NCMB/NCMBGeoPoint.m; sourceTree = "<group>"; };
+		116D393E5289962941F3EF9505920F6E /* NCMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-prefix.pch"; sourceTree = "<group>"; };
+		1247F36C5DE64C507D521318E6C0139C /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBIncrementOperation.h; path = NCMB/Operations/NCMBIncrementOperation.h; sourceTree = "<group>"; };
+		187BF184CD6A3144F78AE2BA121A8E98 /* NCMBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBInstallation.m; path = NCMB/NCMBInstallation.m; sourceTree = "<group>"; };
+		1E1B990C53F0483CD1B0B78700639753 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		247116A5FFA45332A1D32D70E51088F2 /* NCMBAddOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddOperation.m; path = NCMB/Operations/NCMBAddOperation.m; sourceTree = "<group>"; };
+		279614363C301031ECB3F06AC027D70D /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddUniqueOperation.m; path = NCMB/Operations/NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
+		29EA0077E5BA8956E5988776D0DD70B7 /* NCMBScriptService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScriptService.m; path = NCMB/NCMBScriptService/NCMBScriptService.m; sourceTree = "<group>"; };
+		2DA77A99E44BC4C0DCA47BA391D7500F /* NCMBObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Private.h"; path = "NCMB/PrivateHeaders/NCMBObject+Private.h"; sourceTree = "<group>"; };
+		3136C2B53F317DC0A56C799DC32943AC /* NCMBQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBQuery.h; path = NCMB/NCMBQuery.h; sourceTree = "<group>"; };
+		3246F1EB324C2EEB09DE325E93347546 /* NCMBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBUser.h; path = NCMB/NCMBUser.h; sourceTree = "<group>"; };
+		3768F4E32BE99FB76815B3CC7198957F /* Pods-Swift3PushApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Swift3PushApp.modulemap"; sourceTree = "<group>"; };
+		38E14938A938BA2E6D67E7E564F93CAC /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddUniqueOperation.h; path = NCMB/Operations/NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
+		3AB1EE8ABD08C784BAB3DB93A4F21607 /* NCMBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBReachability.m; path = NCMB/NCMBReachability/NCMBReachability.m; sourceTree = "<group>"; };
+		3E9B11E630B77038FB9E69E507E12EB7 /* NCMBSetOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSetOperation.h; path = NCMB/Operations/NCMBSetOperation.h; sourceTree = "<group>"; };
+		3FF901B1AB8CB53DE98DF99793691620 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		41016A8D456AF3CF1A721450A2BCBCF1 /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnonymousUtils.h; path = NCMB/NCMBAnonymousUtils.h; sourceTree = "<group>"; };
+		4709EB7CC67C846ED6AF3475E9D06F8D /* Pods_Swift3PushApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swift3PushApp.framework; path = "Pods-Swift3PushApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E081050E298B20E48B460B0413A8114 /* NCMBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRequest.h; path = NCMB/NCBMRequest/NCMBRequest.h; sourceTree = "<group>"; };
+		4F074E6107ED446EDB00635DEACC7659 /* NCMBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBInstallation.h; path = NCMB/NCMBInstallation.h; sourceTree = "<group>"; };
+		4F080D66676F74F321E8A7551502BBC1 /* NCMBSetOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBSetOperation.m; path = NCMB/Operations/NCMBSetOperation.m; sourceTree = "<group>"; };
+		5CEB6413174CA227890A285B33A5304B /* NCMBRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRole.h; path = NCMB/NCMBRole.h; sourceTree = "<group>"; };
+		5D5533D1761FDA7192901CF93F9ED11E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC66A168601E9945DD582015EC5CB00 /* NCMBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBObject.h; path = NCMB/NCMBObject.h; sourceTree = "<group>"; };
+		5F4E83A5D3C5750C5C299D1F7EC5B190 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		610984FCAEF583DE5D7624B9DD2A82B8 /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBIncrementOperation.m; path = NCMB/Operations/NCMBIncrementOperation.m; sourceTree = "<group>"; };
+		67B72A947F3F712BD7C6D863DEC53BB1 /* NCMBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBConstants.h; path = NCMB/NCMBConstants.h; sourceTree = "<group>"; };
+		69EF823DEC52A8F00360C86118473763 /* NCMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-umbrella.h"; sourceTree = "<group>"; };
+		6C5138075FBF96B42EEB28DC88CB2DD2 /* NCMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB.h; path = NCMB/NCMB.h; sourceTree = "<group>"; };
+		6D535AAC8201F0BE4044FAB8B416232A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		6DE91549C8EEAC319FADA34850FE4243 /* Pods-Swift3PushApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swift3PushApp-umbrella.h"; sourceTree = "<group>"; };
+		6F87F94B9231BBDDCDB03DB64683172A /* NCMBURLConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBURLConnection.h; path = NCMB/NCMBURLConnection/NCMBURLConnection.h; sourceTree = "<group>"; };
+		70E736CC90B265E839A531D1E8E66175 /* NCMB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB.m; path = NCMB/NCMB.m; sourceTree = "<group>"; };
+		72A88E050E637E33D59AA02653E3D2F3 /* NCMBRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelation.m; path = NCMB/NCMBRelation.m; sourceTree = "<group>"; };
+		75F0AF9B4EA6C6633060684BB2BE0AA4 /* NCMBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBUser.m; path = NCMB/NCMBUser.m; sourceTree = "<group>"; };
+		79743538AA5643457E223A4D8B0A8E5C /* NCMBRichPushView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRichPushView.m; path = NCMB/NCMBRichPush/NCMBRichPushView.m; sourceTree = "<group>"; };
+		7A2286365501CAF7221DAEAE828E815B /* Pods-Swift3PushApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swift3PushApp-dummy.m"; sourceTree = "<group>"; };
+		7A27759E853888778255FAB18E79FE4E /* NCMBError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBError.m; path = NCMB/NCMBError.m; sourceTree = "<group>"; };
+		7E2DEFC8AEA5C172553853ACA0E6D1B4 /* Pods-Swift3PushApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swift3PushApp-resources.sh"; sourceTree = "<group>"; };
+		7F7CF8CCC9422035524F8C56D2B0AD6C /* NCMBUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBUser+Private.h"; path = "NCMB/PrivateHeaders/NCMBUser+Private.h"; sourceTree = "<group>"; };
+		8093C08EF66ED363A53E698F8DA59B17 /* NCMBGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBGeoPoint.h; path = NCMB/NCMBGeoPoint.h; sourceTree = "<group>"; };
+		871C38DD6AF3BF37E7A7DDC7CF7534EC /* Pods-Swift3PushApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swift3PushApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8BCCBBA0B98E52286680004194363DF4 /* NCMBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRequest.m; path = NCMB/NCBMRequest/NCMBRequest.m; sourceTree = "<group>"; };
+		8FD38D141168172D5662AD80BD10E19E /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Subclass.h"; path = "NCMB/NCMBObject+Subclass.h"; sourceTree = "<group>"; };
+		90B313295372C7B24906A61DEF6055C0 /* NCMBPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBPush.h; path = NCMB/NCMBPush.h; sourceTree = "<group>"; };
+		92E77D49C4D6605B73B53555214233CD /* NCMBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFile.h; path = NCMB/NCMBFile.h; sourceTree = "<group>"; };
+		92EDFC048CAFCA59A916178CCC313DCC /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnonymousUtils.m; path = NCMB/NCMBAnonymousUtils.m; sourceTree = "<group>"; };
+		93176DC97C8065B9AF6766C6F992922C /* NCMBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBObject.m; path = NCMB/NCMBObject.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97E84FA5CC6F2BEA74927C5223CED5F7 /* Pods-Swift3PushApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swift3PushApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		984D221276DEC60F07E285775EDE3A0B /* NCMB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.xcconfig; sourceTree = "<group>"; };
+		9CBFB2A4636CD900AF421725D92F1814 /* NCMBCloseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBCloseImageView.m; path = NCMB/NCMBRichPush/NCMBCloseImageView.m; sourceTree = "<group>"; };
+		9F39760302D1A127A3A7943D85B9B9AC /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRemoveOperation.h; path = NCMB/Operations/NCMBRemoveOperation.h; sourceTree = "<group>"; };
+		A2A70E357B7376E5FB5B529676774A5B /* Pods-Swift3PushApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swift3PushApp-frameworks.sh"; sourceTree = "<group>"; };
+		A91F4880E3F82693DA15A454E2B8FD2C /* NCMBPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBPush.m; path = NCMB/NCMBPush.m; sourceTree = "<group>"; };
+		AA651E187B03CB9BBD1F7478859DFF15 /* NCMBAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnalytics.m; path = NCMB/NCMBAnalytics.m; sourceTree = "<group>"; };
+		AA928F4C553C1B5C283E157DF5208F01 /* NCMBRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelation.h; path = NCMB/NCMBRelation.h; sourceTree = "<group>"; };
+		AFC63913746CABAE2F8F46D3149A641A /* NCMBRelationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelationOperation.h; path = NCMB/Operations/NCMBRelationOperation.h; sourceTree = "<group>"; };
+		B1A0CF12A8DDD86D3E9E08F16E6F8F3D /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDeleteOperation.m; path = NCMB/Operations/NCMBDeleteOperation.m; sourceTree = "<group>"; };
+		B33AA84133692BC2916F1BAF10EEC981 /* NCMBCloseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBCloseImageView.h; path = NCMB/NCMBRichPush/NCMBCloseImageView.h; sourceTree = "<group>"; };
+		B588D32349746CA93B39160C83609FC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B953A1FAFE354EE4EBD073758D1C0BE4 /* NCMBQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBQuery+Private.h"; path = "NCMB/PrivateHeaders/NCMBQuery+Private.h"; sourceTree = "<group>"; };
+		BBEAD17827C37B73DD3153FF09BE379A /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRemoveOperation.m; path = NCMB/Operations/NCMBRemoveOperation.m; sourceTree = "<group>"; };
+		C4B9F3C186446FD9972720CEFE9D391C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C606B2C8DA3E0025A89250A1CF7EF3EA /* NCMBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnalytics.h; path = NCMB/NCMBAnalytics.h; sourceTree = "<group>"; };
+		C87A543752014EE7D8DA4E2AD54AA57D /* SubClassHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubClassHandler.h; path = NCMB/SubClassHandler/SubClassHandler.h; sourceTree = "<group>"; };
+		CF0D4CE2EA2281E7E5D0D6775085B7D7 /* NCMBAddOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddOperation.h; path = NCMB/Operations/NCMBAddOperation.h; sourceTree = "<group>"; };
+		CFE6162C8F348B4EA84E2C39D279590D /* NCMBQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBQuery.m; path = NCMB/NCMBQuery.m; sourceTree = "<group>"; };
+		D07ADDD4CD6FBA75AF57A54F2327298B /* Pods-Swift3PushApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swift3PushApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2A2C7E7F81ACA8B7C9D95D4AA53221F /* NCMBScriptService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScriptService.h; path = NCMB/NCMBScriptService/NCMBScriptService.h; sourceTree = "<group>"; };
+		D4EF7807C357F2D45938DA62F4D76B59 /* Pods-Swift3PushApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swift3PushApp.release.xcconfig"; sourceTree = "<group>"; };
+		D57A5E6DC5454A0E83DFBE71B96D6D9E /* NCMBScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScript.m; path = NCMB/NCMBScript.m; sourceTree = "<group>"; };
+		D5D7F9CE2B28C0E815C6FF6447382A99 /* NCMBSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSubclassing.h; path = NCMB/NCMBSubclassing.h; sourceTree = "<group>"; };
+		DD9ECE67D13EAD7EEA344316646CD8BB /* NSDataBase64Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataBase64Encode.h; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.h; sourceTree = "<group>"; };
+		DE25BA6B82B8C950DC374F3A58886591 /* NCMBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScript.h; path = NCMB/NCMBScript.h; sourceTree = "<group>"; };
+		E2CF2DFE0AFFD20122AA7F8F374BD626 /* NCMBRelationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelationOperation.m; path = NCMB/Operations/NCMBRelationOperation.m; sourceTree = "<group>"; };
+		E9242EEDA128846550E92F2D2981592E /* NCMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCMB-dummy.m"; sourceTree = "<group>"; };
+		EDA8ACEB4BEA32BB84E8E3064DF218B4 /* NCMBRichPushView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRichPushView.h; path = NCMB/NCMBRichPush/NCMBRichPushView.h; sourceTree = "<group>"; };
+		F254E6ED43AF518280A8D7C7FE38CBB5 /* NCMBRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRole.m; path = NCMB/NCMBRole.m; sourceTree = "<group>"; };
+		F8F497F2B410E28EFDEB54A6B863E62F /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDeleteOperation.h; path = NCMB/Operations/NCMBDeleteOperation.h; sourceTree = "<group>"; };
+		F910D32B3C2697B0C8E0793589622DC2 /* SubClassHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubClassHandler.m; path = NCMB/SubClassHandler/SubClassHandler.m; sourceTree = "<group>"; };
+		FA0555B692D956D185AD0793B1950ECE /* NCMBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBReachability.h; path = NCMB/NCMBReachability/NCMBReachability.h; sourceTree = "<group>"; };
+		FE29DD46B66F06C84C0B3126C12C6327 /* NCMBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBError.h; path = NCMB/NCMBError.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D3E582ED4410BB68DB31ED4F862BA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B104B284B35E1AF54B2045A2324D8990 /* AudioToolbox.framework in Frameworks */,
+				51C38CB478FCE59983AA9A8B61653CF3 /* Foundation.framework in Frameworks */,
+				C0522502D244826DCFBBD5D93E3D4F15 /* MobileCoreServices.framework in Frameworks */,
+				5D4D874D02AAC223402DDB5E15D5BBB4 /* SystemConfiguration.framework in Frameworks */,
+				85E245E75024F13EFDC3E6E6E1C275F2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E7DD5D81637E406391DC61D48F6828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0AB1E1CAD8C62FFBFF3A1F6F89A2A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0828BC64B80E95443A5EB69E695C94A9 /* Pods-Swift3PushApp */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9F3C186446FD9972720CEFE9D391C /* Info.plist */,
+				3768F4E32BE99FB76815B3CC7198957F /* Pods-Swift3PushApp.modulemap */,
+				97E84FA5CC6F2BEA74927C5223CED5F7 /* Pods-Swift3PushApp-acknowledgements.markdown */,
+				D07ADDD4CD6FBA75AF57A54F2327298B /* Pods-Swift3PushApp-acknowledgements.plist */,
+				7A2286365501CAF7221DAEAE828E815B /* Pods-Swift3PushApp-dummy.m */,
+				A2A70E357B7376E5FB5B529676774A5B /* Pods-Swift3PushApp-frameworks.sh */,
+				7E2DEFC8AEA5C172553853ACA0E6D1B4 /* Pods-Swift3PushApp-resources.sh */,
+				6DE91549C8EEAC319FADA34850FE4243 /* Pods-Swift3PushApp-umbrella.h */,
+				871C38DD6AF3BF37E7A7DDC7CF7534EC /* Pods-Swift3PushApp.debug.xcconfig */,
+				D4EF7807C357F2D45938DA62F4D76B59 /* Pods-Swift3PushApp.release.xcconfig */,
+			);
+			name = "Pods-Swift3PushApp";
+			path = "Target Support Files/Pods-Swift3PushApp";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A90C7B05F801CFBAE34B6B4B0EB801 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26108EA00ADA1290026BF399091ED73B /* NCMB */ = {
+			isa = PBXGroup;
+			children = (
+				6C5138075FBF96B42EEB28DC88CB2DD2 /* NCMB.h */,
+				70E736CC90B265E839A531D1E8E66175 /* NCMB.m */,
+				101B7517A53E5D057BB6A0D5A7F2EA87 /* NCMBACL.h */,
+				0AE165B160398772F2C1093505A892C9 /* NCMBACL.m */,
+				CF0D4CE2EA2281E7E5D0D6775085B7D7 /* NCMBAddOperation.h */,
+				247116A5FFA45332A1D32D70E51088F2 /* NCMBAddOperation.m */,
+				38E14938A938BA2E6D67E7E564F93CAC /* NCMBAddUniqueOperation.h */,
+				279614363C301031ECB3F06AC027D70D /* NCMBAddUniqueOperation.m */,
+				C606B2C8DA3E0025A89250A1CF7EF3EA /* NCMBAnalytics.h */,
+				AA651E187B03CB9BBD1F7478859DFF15 /* NCMBAnalytics.m */,
+				41016A8D456AF3CF1A721450A2BCBCF1 /* NCMBAnonymousUtils.h */,
+				92EDFC048CAFCA59A916178CCC313DCC /* NCMBAnonymousUtils.m */,
+				B33AA84133692BC2916F1BAF10EEC981 /* NCMBCloseImageView.h */,
+				9CBFB2A4636CD900AF421725D92F1814 /* NCMBCloseImageView.m */,
+				67B72A947F3F712BD7C6D863DEC53BB1 /* NCMBConstants.h */,
+				F8F497F2B410E28EFDEB54A6B863E62F /* NCMBDeleteOperation.h */,
+				B1A0CF12A8DDD86D3E9E08F16E6F8F3D /* NCMBDeleteOperation.m */,
+				FE29DD46B66F06C84C0B3126C12C6327 /* NCMBError.h */,
+				7A27759E853888778255FAB18E79FE4E /* NCMBError.m */,
+				92E77D49C4D6605B73B53555214233CD /* NCMBFile.h */,
+				044CA4A98882A6A33059E16D2437DA5B /* NCMBFile.m */,
+				8093C08EF66ED363A53E698F8DA59B17 /* NCMBGeoPoint.h */,
+				1069ABABFC92ADE78328EC86411D65E5 /* NCMBGeoPoint.m */,
+				1247F36C5DE64C507D521318E6C0139C /* NCMBIncrementOperation.h */,
+				610984FCAEF583DE5D7624B9DD2A82B8 /* NCMBIncrementOperation.m */,
+				4F074E6107ED446EDB00635DEACC7659 /* NCMBInstallation.h */,
+				187BF184CD6A3144F78AE2BA121A8E98 /* NCMBInstallation.m */,
+				5DC66A168601E9945DD582015EC5CB00 /* NCMBObject.h */,
+				93176DC97C8065B9AF6766C6F992922C /* NCMBObject.m */,
+				2DA77A99E44BC4C0DCA47BA391D7500F /* NCMBObject+Private.h */,
+				8FD38D141168172D5662AD80BD10E19E /* NCMBObject+Subclass.h */,
+				90B313295372C7B24906A61DEF6055C0 /* NCMBPush.h */,
+				A91F4880E3F82693DA15A454E2B8FD2C /* NCMBPush.m */,
+				3136C2B53F317DC0A56C799DC32943AC /* NCMBQuery.h */,
+				CFE6162C8F348B4EA84E2C39D279590D /* NCMBQuery.m */,
+				B953A1FAFE354EE4EBD073758D1C0BE4 /* NCMBQuery+Private.h */,
+				FA0555B692D956D185AD0793B1950ECE /* NCMBReachability.h */,
+				3AB1EE8ABD08C784BAB3DB93A4F21607 /* NCMBReachability.m */,
+				AA928F4C553C1B5C283E157DF5208F01 /* NCMBRelation.h */,
+				72A88E050E637E33D59AA02653E3D2F3 /* NCMBRelation.m */,
+				001E220C6FBB1A1EB9373EB9110F59FD /* NCMBRelation+Private.h */,
+				AFC63913746CABAE2F8F46D3149A641A /* NCMBRelationOperation.h */,
+				E2CF2DFE0AFFD20122AA7F8F374BD626 /* NCMBRelationOperation.m */,
+				9F39760302D1A127A3A7943D85B9B9AC /* NCMBRemoveOperation.h */,
+				BBEAD17827C37B73DD3153FF09BE379A /* NCMBRemoveOperation.m */,
+				4E081050E298B20E48B460B0413A8114 /* NCMBRequest.h */,
+				8BCCBBA0B98E52286680004194363DF4 /* NCMBRequest.m */,
+				EDA8ACEB4BEA32BB84E8E3064DF218B4 /* NCMBRichPushView.h */,
+				79743538AA5643457E223A4D8B0A8E5C /* NCMBRichPushView.m */,
+				5CEB6413174CA227890A285B33A5304B /* NCMBRole.h */,
+				F254E6ED43AF518280A8D7C7FE38CBB5 /* NCMBRole.m */,
+				DE25BA6B82B8C950DC374F3A58886591 /* NCMBScript.h */,
+				D57A5E6DC5454A0E83DFBE71B96D6D9E /* NCMBScript.m */,
+				D2A2C7E7F81ACA8B7C9D95D4AA53221F /* NCMBScriptService.h */,
+				29EA0077E5BA8956E5988776D0DD70B7 /* NCMBScriptService.m */,
+				3E9B11E630B77038FB9E69E507E12EB7 /* NCMBSetOperation.h */,
+				4F080D66676F74F321E8A7551502BBC1 /* NCMBSetOperation.m */,
+				D5D7F9CE2B28C0E815C6FF6447382A99 /* NCMBSubclassing.h */,
+				6F87F94B9231BBDDCDB03DB64683172A /* NCMBURLConnection.h */,
+				0D35036070C4C26CBC2D63EE3404814C /* NCMBURLConnection.m */,
+				3246F1EB324C2EEB09DE325E93347546 /* NCMBUser.h */,
+				75F0AF9B4EA6C6633060684BB2BE0AA4 /* NCMBUser.m */,
+				7F7CF8CCC9422035524F8C56D2B0AD6C /* NCMBUser+Private.h */,
+				DD9ECE67D13EAD7EEA344316646CD8BB /* NSDataBase64Encode.h */,
+				05C4B1CA74E42B771F776773ECE8CEC3 /* NSDataBase64Encode.m */,
+				C87A543752014EE7D8DA4E2AD54AA57D /* SubClassHandler.h */,
+				F910D32B3C2697B0C8E0793589622DC2 /* SubClassHandler.m */,
+				FF4FFE817A985B71C9ABFC3F59361396 /* Support Files */,
+			);
+			name = NCMB;
+			path = NCMB;
+			sourceTree = "<group>";
+		};
+		44CEA7E2191E3097473B25A6780494B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BBF7098ACAD3DE3EF20576E281DDF11 /* NCMB.framework */,
+				4709EB7CC67C846ED6AF3475E9D06F8D /* Pods_Swift3PushApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730CFF96CE936329671E6B26FC3757E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26108EA00ADA1290026BF399091ED73B /* NCMB */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				730CFF96CE936329671E6B26FC3757E6 /* Pods */,
+				44CEA7E2191E3097473B25A6780494B9 /* Products */,
+				BFB6F9EBF97D4BD890C035458C5373EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB6F9EBF97D4BD890C035458C5373EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0828BC64B80E95443A5EB69E695C94A9 /* Pods-Swift3PushApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8A90C7B05F801CFBAE34B6B4B0EB801 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6D535AAC8201F0BE4044FAB8B416232A /* AudioToolbox.framework */,
+				B588D32349746CA93B39160C83609FC6 /* Foundation.framework */,
+				1E1B990C53F0483CD1B0B78700639753 /* MobileCoreServices.framework */,
+				3FF901B1AB8CB53DE98DF99793691620 /* SystemConfiguration.framework */,
+				5F4E83A5D3C5750C5C299D1F7EC5B190 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF4FFE817A985B71C9ABFC3F59361396 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D5533D1761FDA7192901CF93F9ED11E /* Info.plist */,
+				00AC4E0C3A1BF0D9CE3634E7ADE58543 /* NCMB.modulemap */,
+				984D221276DEC60F07E285775EDE3A0B /* NCMB.xcconfig */,
+				E9242EEDA128846550E92F2D2981592E /* NCMB-dummy.m */,
+				116D393E5289962941F3EF9505920F6E /* NCMB-prefix.pch */,
+				69EF823DEC52A8F00360C86118473763 /* NCMB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NCMB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C5E212C8D1278FDEAA52C2ED46F98FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D776FE30E45A10C3C7437F3BD09E9A6 /* Pods-Swift3PushApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC5C6FF418B8E7710CBBA3E980764E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8407018F7F5C5C679AF4624D8BEFDFF8 /* NCMB-umbrella.h in Headers */,
+				2096D8115A5F6AAD268A787DCE482D33 /* NCMB.h in Headers */,
+				493444E0D6FCA6A71DE1B3877130038A /* NCMBACL.h in Headers */,
+				7A855AA9ED5E7BED5FFEC7371C0CEDF9 /* NCMBAddOperation.h in Headers */,
+				6157B0DB64D1F5F25761FA7809642ADC /* NCMBAddUniqueOperation.h in Headers */,
+				3A4F1716457789A4AF19B7C10F10556A /* NCMBAnalytics.h in Headers */,
+				943AC49A48A8EB533E34D6D066BE8442 /* NCMBAnonymousUtils.h in Headers */,
+				DF2640647635305E3A49803BAB09E8E7 /* NCMBCloseImageView.h in Headers */,
+				EF4AA8F50C3775EF6E52795F2856AB04 /* NCMBConstants.h in Headers */,
+				2279BF15CD71331FABF731AB42D78B38 /* NCMBDeleteOperation.h in Headers */,
+				34E5EAF2DCFDF32D2CE9376730A36F52 /* NCMBError.h in Headers */,
+				F842B22C29CE2CD95E6DC58E1D01741F /* NCMBFile.h in Headers */,
+				53D7B41F3D8EC8AD9D0DAEE8B49A1452 /* NCMBGeoPoint.h in Headers */,
+				8070292F24624250EDF68E077F4A152F /* NCMBIncrementOperation.h in Headers */,
+				86FEB0D7563DEC1185EE15B87D00A08B /* NCMBInstallation.h in Headers */,
+				A4E8D8CAD679F48371F068FEDA181929 /* NCMBObject+Private.h in Headers */,
+				0E9BD4FBAF9987382CC772609D86DB13 /* NCMBObject+Subclass.h in Headers */,
+				75D27ADE25AE5A50A161CE81D0DE8F02 /* NCMBObject.h in Headers */,
+				78C74C8796710CF62709537273CBD0FB /* NCMBPush.h in Headers */,
+				A8F28CC862068D6B3510B92ACEC63E29 /* NCMBQuery+Private.h in Headers */,
+				C489D6BC3E48C6FCF243ED26D5FF1370 /* NCMBQuery.h in Headers */,
+				73F7A7C1128293FB3337B00DB4E6D7FD /* NCMBReachability.h in Headers */,
+				9A9B1F9827DF7D1C6C7C45AE9F644A5B /* NCMBRelation+Private.h in Headers */,
+				37E18DA597B2F67C8A11C0D3BE14099E /* NCMBRelation.h in Headers */,
+				B690E31483F8D27B005ADDD9E3E1D977 /* NCMBRelationOperation.h in Headers */,
+				07E15440CD3D50BB5FAD85E0FB6DA932 /* NCMBRemoveOperation.h in Headers */,
+				B19D3FAC65FE0BD872DDB0B61C306A3C /* NCMBRequest.h in Headers */,
+				C4D4580DB0B6572E43DC8F0674B1CB10 /* NCMBRichPushView.h in Headers */,
+				898C9B81C3BD4A9B5C109D50D5A9A374 /* NCMBRole.h in Headers */,
+				BA211F3FB9BBC078E871674FDC990F92 /* NCMBScript.h in Headers */,
+				4A9825C8A17013F9DC261A6CBFA41551 /* NCMBScriptService.h in Headers */,
+				CE02C27BB0183FFB8BAB0CFFCA568790 /* NCMBSetOperation.h in Headers */,
+				4A01E83F14B50265FB47C573AEF06214 /* NCMBSubclassing.h in Headers */,
+				0C355FA48CE49847355EBCAD7B224272 /* NCMBURLConnection.h in Headers */,
+				EAEB5592DB8230E8D73AE6CDE0CF83F7 /* NCMBUser+Private.h in Headers */,
+				FB5258DC13A0324773C4794065D68D21 /* NCMBUser.h in Headers */,
+				5653B3BBC6E8232BB9F1F5AE6B80BDBD /* NSDataBase64Encode.h in Headers */,
+				8BE519FE701E2428284D044087777CBD /* SubClassHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46734D7F4A28B90C40E251EA1010330C /* Pods-Swift3PushApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715235BD96A4D0B6CD90135AC06989E5 /* Build configuration list for PBXNativeTarget "Pods-Swift3PushApp" */;
+			buildPhases = (
+				49E0EDB9B51CCFA8DF75C2FBD438899F /* Sources */,
+				D8E7DD5D81637E406391DC61D48F6828 /* Frameworks */,
+				3C5E212C8D1278FDEAA52C2ED46F98FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00266EAB56ECF58F5FDDE8C35E171ACE /* PBXTargetDependency */,
+			);
+			name = "Pods-Swift3PushApp";
+			productName = "Pods-Swift3PushApp";
+			productReference = 4709EB7CC67C846ED6AF3475E9D06F8D /* Pods_Swift3PushApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EECA600E8117381111025D74E657B487 /* NCMB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591954F3396A32F5E11657866C3021AD /* Build configuration list for PBXNativeTarget "NCMB" */;
+			buildPhases = (
+				6E72F55F89BB26C5E710516156F288C8 /* Sources */,
+				1D3E582ED4410BB68DB31ED4F862BA47 /* Frameworks */,
+				6BC5C6FF418B8E7710CBBA3E980764E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCMB;
+			productName = NCMB;
+			productReference = 0BBF7098ACAD3DE3EF20576E281DDF11 /* NCMB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 44CEA7E2191E3097473B25A6780494B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECA600E8117381111025D74E657B487 /* NCMB */,
+				46734D7F4A28B90C40E251EA1010330C /* Pods-Swift3PushApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49E0EDB9B51CCFA8DF75C2FBD438899F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B209371C3AA67A0F8780E3E67E4AFB /* Pods-Swift3PushApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E72F55F89BB26C5E710516156F288C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B5F9371EEA6908395F6B5943DA6D49 /* NCMB-dummy.m in Sources */,
+				B0A10F3CB140FE1069C04F877C6FD499 /* NCMB.m in Sources */,
+				B9A27097F17D0822FD5DF3CD5E084585 /* NCMBACL.m in Sources */,
+				4A2E53A8FBFFA279412993BF6AF93060 /* NCMBAddOperation.m in Sources */,
+				8840863C36642D7E45027591ACDD4B4E /* NCMBAddUniqueOperation.m in Sources */,
+				D1D630606C72F8418C7DDF2DC02E97C1 /* NCMBAnalytics.m in Sources */,
+				766F3FC4A9A22E8BA549B6033439B04A /* NCMBAnonymousUtils.m in Sources */,
+				78BEDB8500ACC2D5577AA93341D5C7C7 /* NCMBCloseImageView.m in Sources */,
+				33CC5DFE0F55F1D4E9B0CF1712EE860F /* NCMBDeleteOperation.m in Sources */,
+				DB4F79B179749668213A126EC7B6D9CD /* NCMBError.m in Sources */,
+				B077B7862F483093B1C7EFC18017E0D6 /* NCMBFile.m in Sources */,
+				8E234C8185447FB0172BCD3E65371C69 /* NCMBGeoPoint.m in Sources */,
+				17720328EF5FEDEFA41ADEF4C6CCBB47 /* NCMBIncrementOperation.m in Sources */,
+				FC17DE41C1E17EE97EDEC74E2A53547B /* NCMBInstallation.m in Sources */,
+				975BFE337EC54361ADF6B66B5F35F735 /* NCMBObject.m in Sources */,
+				EBE41204C558E448A4B8C0693434864E /* NCMBPush.m in Sources */,
+				601B2716F8BBA8EE676CD30F9988F83B /* NCMBQuery.m in Sources */,
+				1FAE93F859FE64A168DE35F19BC8D513 /* NCMBReachability.m in Sources */,
+				2808322C4BB5BCD02D23CB760947FCB5 /* NCMBRelation.m in Sources */,
+				5D652445392CD71E7C2D477F59D060C2 /* NCMBRelationOperation.m in Sources */,
+				20356D3F0262FB767E684035681AFA31 /* NCMBRemoveOperation.m in Sources */,
+				DFA94FE1C2D2BCFBA529F65EDA825F9F /* NCMBRequest.m in Sources */,
+				E04BF9F128C896D52C37FAB0FD876F8B /* NCMBRichPushView.m in Sources */,
+				159CD37BBF2F693BB2042F344B17B1E1 /* NCMBRole.m in Sources */,
+				5F5341ABF433C8952F36281C077AEDDF /* NCMBScript.m in Sources */,
+				C82A13FE9D7E5E102D37F31D90CE6821 /* NCMBScriptService.m in Sources */,
+				BF609EB584818B9AF2753D041B6F03C1 /* NCMBSetOperation.m in Sources */,
+				29701D12005AC21E82560FBA7BB4F7A6 /* NCMBURLConnection.m in Sources */,
+				9C8CE17D0933C8F8C3C733CF2DB8B660 /* NCMBUser.m in Sources */,
+				E362E5C9C34203B788EC22CD24B280EA /* NSDataBase64Encode.m in Sources */,
+				705EF8B204DEF9AF5120F8786AB78731 /* SubClassHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00266EAB56ECF58F5FDDE8C35E171ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NCMB;
+			target = EECA600E8117381111025D74E657B487 /* NCMB */;
+			targetProxy = DCBF4C964C119AFF04D1D8F538B8680D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		188F9ECE5E9A8FC4F54AFBF2CF04C6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984D221276DEC60F07E285775EDE3A0B /* NCMB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCMB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NCMB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F737B26440640735D54E461594810C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984D221276DEC60F07E285775EDE3A0B /* NCMB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCMB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NCMB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		87E08B084003A1DBC7A91244405C7D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871C38DD6AF3BF37E7A7DDC7CF7534EC /* Pods-Swift3PushApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Swift3PushApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swift3PushApp/Pods-Swift3PushApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Swift3PushApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDC132C03470B2900D4A9E1C5A5AF26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EF7807C357F2D45938DA62F4D76B59 /* Pods-Swift3PushApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Swift3PushApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swift3PushApp/Pods-Swift3PushApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Swift3PushApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591954F3396A32F5E11657866C3021AD /* Build configuration list for PBXNativeTarget "NCMB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F9ECE5E9A8FC4F54AFBF2CF04C6F7 /* Debug */,
+				3F737B26440640735D54E461594810C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715235BD96A4D0B6CD90135AC06989E5 /* Build configuration list for PBXNativeTarget "Pods-Swift3PushApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E08B084003A1DBC7A91244405C7D7A /* Debug */,
+				BDC132C03470B2900D4A9E1C5A5AF26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
