@@ -152,14 +152,6 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
  * デバイストークンの要求はiOSのバージョンによってコードが異なります
 
 ```swift
-//
-//  AppDelegate.swift
-//  Swift3PushApp
-//
-//  Created by Natsumo Ikeda on 2016/09/27.
-//  Copyright © 2016年 NIFTY Corporation. All rights reserved.
-//
-
 import UIKit
 import UserNotifications
 import NCMB
