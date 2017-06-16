@@ -42,7 +42,7 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
 ![画像i002](/readme-img/i002.png)
 
 ### 1. [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の会員登録とログイン→アプリ作成と設定
-* 上記リンクから会員登録（無料）をします。登録ができたらログインをすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
+* 上記リンクから会員登録（無料）をします。登録後ログインすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
 
 ![画像3](/readme-img/003.png)
 
@@ -58,7 +58,7 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
 
 ### 2. [GitHub](https://github.com/NIFTYCloud-mbaas/SwiftPushApp.git)からサンプルプロジェクトのダウンロード
 
-* 下記リンクをクリックしてプロジェクトをダウンロードをMacにダウンロードします
+* 下記リンクをクリックしてプロジェクトをMacにダウンロードします
 
  * __[Swift3PushApp](https://github.com/NIFTYCloud-mbaas/Swift3PushApp/archive/master.zip)__
 
