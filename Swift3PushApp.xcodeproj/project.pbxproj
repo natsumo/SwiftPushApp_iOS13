@@ -19,6 +19,7 @@
 		08A11F00C4290E83C7D99435 /* Pods-Swift3PushApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift3PushApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift3PushApp/Pods-Swift3PushApp.release.xcconfig"; sourceTree = "<group>"; };
 		5F5209CBFAF753783005DEE7 /* Pods-Swift3PushApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift3PushApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift3PushApp/Pods-Swift3PushApp.debug.xcconfig"; sourceTree = "<group>"; };
 		86308717D2A8E8D7DE6A769B /* Pods_Swift3PushApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift3PushApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5194FC1F665F1F005C6ED9 /* Swift3PushApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift3PushApp.entitlements; sourceTree = "<group>"; };
 		BDD36F1E1D9A3BB500151031 /* Swift3PushApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift3PushApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD36F211D9A3BB500151031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD36F231D9A3BB500151031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		BDD36F201D9A3BB500151031 /* Swift3PushApp */ = {
 			isa = PBXGroup;
 			children = (
+				BD5194FC1F665F1F005C6ED9 /* Swift3PushApp.entitlements */,
 				BDD36F211D9A3BB500151031 /* AppDelegate.swift */,
 				BDD36F231D9A3BB500151031 /* ViewController.swift */,
 				BDD36F251D9A3BB500151031 /* Main.storyboard */,
@@ -123,7 +125,13 @@
 				TargetAttributes = {
 					BDD36F1D1D9A3BB500151031 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 796KW2587D;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -165,9 +173,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swift3PushApp/Pods-Swift3PushApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -195,13 +206,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift3PushApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -336,10 +350,14 @@
 			baseConfigurationReference = 5F5209CBFAF753783005DEE7 /* Pods-Swift3PushApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swift3PushApp/Swift3PushApp.entitlements;
+				DEVELOPMENT_TEAM = 796KW2587D;
 				INFOPLIST_FILE = Swift3PushApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobilebackend.niftycloud.Swift3PushApp;
+				PRODUCT_BUNDLE_IDENTIFIER = fjct.natsumo.ikeda.pushapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7eec186b-38ba-4f59-82b7-5dec68c76274";
+				PROVISIONING_PROFILE_SPECIFIER = "Ikeda PushApp Provisioning Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -349,10 +367,13 @@
 			baseConfigurationReference = 08A11F00C4290E83C7D99435 /* Pods-Swift3PushApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swift3PushApp/Swift3PushApp.entitlements;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Swift3PushApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobilebackend.niftycloud.Swift3PushApp;
+				PRODUCT_BUNDLE_IDENTIFIER = fjct.natsumo.ikeda.pushapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -376,6 +397,7 @@
 				BDD36F321D9A3BB500151031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

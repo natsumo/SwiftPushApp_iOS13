@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Swift3PushApp
 //
-//  Created by Natsumo Ikeda on 2016/09/27.
+//  Created by Natsumo Ikeda on 2016/09/27 (update on 2017/09/11).
 //  Copyright 2017 FUJITSU CLOUD TECHNOLOGIES LIMITED All Rights Reserved.
 //
 
@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //********** APIキーの設定 **********
     let applicationkey = "YOUR_NCMB_APPLICATIONKEY"
     let clientkey      = "YOUR_NCMB_CLIENTKEY"
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         //********** SDKの初期化 **********

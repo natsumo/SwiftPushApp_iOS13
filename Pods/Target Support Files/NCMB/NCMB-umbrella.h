@@ -1,13 +1,21 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
 #endif
 
-#import "NCMBRequest.h"
 #import "NCMB.h"
 #import "NCMBACL.h"
 #import "NCMBAnalytics.h"
 #import "NCMBAnonymousUtils.h"
 #import "NCMBConstants.h"
+#import "NCMBDateFormat.h"
 #import "NCMBError.h"
 #import "NCMBFile.h"
 #import "NCMBGeoPoint.h"
@@ -18,6 +26,7 @@
 #import "NCMBQuery.h"
 #import "NCMBReachability.h"
 #import "NCMBRelation.h"
+#import "NCMBRequest.h"
 #import "NCMBCloseImageView.h"
 #import "NCMBRichPushView.h"
 #import "NCMBRole.h"
@@ -26,6 +35,7 @@
 #import "NCMBSubclassing.h"
 #import "NCMBURLConnection.h"
 #import "NCMBUser.h"
+#import "NCMB_umbrella.h"
 #import "NSDataBase64Encode.h"
 #import "NCMBAddOperation.h"
 #import "NCMBAddUniqueOperation.h"

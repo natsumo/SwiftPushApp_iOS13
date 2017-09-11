@@ -1,5 +1,5 @@
 /*
- Copyright 2014 NIFTY Corporation All Rights Reserved.
+ Copyright 2017 FUJITSU CLOUD TECHNOLOGIES LIMITED All Rights Reserved.
  
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -917,8 +917,10 @@ static BOOL isEnableAutomaticUser = NO;
  */
 -(void)afterSave:(NSDictionary*)response operations:(NSMutableDictionary *)operations{
     [super afterSave:response operations:operations];
+    BOOL isHasTokenKey = NO;
     if ([response objectForKey:@"sessionToken"]){
         [self setSessionToken:[response objectForKey:@"sessionToken"]];
+        isHasTokenKey = YES;
     }
     //会員新規登録の有無
     //if ([response objectForKey:@"createDate"]&&![response objectForKey:@"updateDate"]){
@@ -949,7 +951,10 @@ static BOOL isEnableAutomaticUser = NO;
             [estimatedData setObject:converted forKey:@"authData"];
         }
     }
-    [NCMBUser saveToFileCurrentUser:self];
+    
+    if([self isEqual:[NCMBUser currentUser]] || isHasTokenKey){
+        [NCMBUser saveToFileCurrentUser:self];
+    }
 }
 
 #pragma mark - link
