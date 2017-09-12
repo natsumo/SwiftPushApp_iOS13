@@ -109,59 +109,57 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
 * 書き換え終わったら`command + s`キーで保存をします
 
 ### 5. 実機ビルド
-* 始めて実機ビルドをする場合は、Xcodeにアカウント（AppleID）の登録をします
+* 始めて実機ビルドをする場合は、Xcode に Apple developer アカウント（Apple ID）の登録をします
 * メニューバーの「Xcode」＞「Preferences...」を選択します
-* Accounts画面が開いたら、左下の「＋」をクリックします。
-* Apple IDとPasswordを入力して、「Add」をクリックします
+* Accounts 画面が開いたら、左下の「＋」＞「Add Apple ID...」をクリックします
+* 「Apple ID」と「Password」を要求されるので、入力し「Sign in」をクリックします
 
-<center><img src="readme-img/i029.png" alt="画像i29" width="400px"></center>
+<center><img src="readme-img/i029.png" alt="画像i29" width="450px"></center>
 
 <div style="page-break-before:always"></div>
 
-* 追加されると、下図のようになります
+* 登録されると、下図のようになります
   * 追加した情報があっていればOKです
 
-<center><img src="readme-img/i030.png" alt="画像i30" width="300px"></center>
+<center><img src="readme-img/i030.png" alt="画像i30" width="200px"></center>
 
-* 確認できたら閉じます
-* 次に「TARGETS」 ＞「General」を開きます
+* 確認できたら設定画面を閉じます
+* ここからアプリをビルドするための設定を行います
+* 「TARGETS」＞「Unity-iPhone」＞「General」を開きます
+* まず「▼identity」＞「Bundle Identifier」に Apple Developer Program で AppID 作成時に設定した、__Bundle ID__ を入力します
+  * 注意：必ず同じ Bundle ID を設定してください！
+* 次に「▼Signing」を編集します
+* 「Automatically manage signing」にチェックを入れた状態で、「Team」を選択します
+  * 今回使用する Apple developer アカウントを選択してください
 
-<center><img src="readme-img/014.png" alt="画像14" width="450px"></center>
-
-* 「Idenrity」＞「Bundle Identifier」を入力します
-* 「Bundle Identifier」には AppID 作成時に指定した「Bundle ID」を入力してください
+<center><img src="readme-img/i034.png" alt="画像i34" width="350px"></center>
 
 <div style="page-break-before:always"></div>
 
-* 続けて「Signing(Debug)」＞「Provisioning Profile」を設定します
-* 使用するプロビジョニングプロファイルをプルダウンから選択します
-  * プロビジョニングプロファイルはダウンロードしたものを一度 __ダブルクリック__ して認識させておく必要があります（プルダウンに表示されない場合はダブルクリックを実施後設定してください）
-* 選択すると以下のようになります
+* この２点を設定することで自動的に「Provisioning Profile」が読み込まれます
+ * プロビジョニングプロファイルはダウンロードしたものを一度 __ダブルクリック__ して認識させておく必要があります（表示されない場合はダブルクリックを実施してください）
+* 最後にプッシュ通知の設定をします
+* 「Capabilities」を開き、「Push Notifications」を __ON__ に設定します
+* 正しく設定が完了すると、以下のように「Steps」にチェックマークが表示されます
 
-<center><img src="readme-img/015.png" alt="画像15" width="450px"></center>
-
-* 最後に「TARGETS」＞「Capabilities」を開き、「Push Notifications」を __ON__ に設定します
-* 設定すると以下のようになります
-
-<center><img src="readme-img/016.png" alt="画像16" width="450px"></center>
+<center><img src="readme-img/i035.png" alt="画像i35" width="400px"></center>
 
 * これで準備は完了です
 
-<div style="page-break-before:always"></div>
-
 ### 6.動作確認
-* lightningケーブルで登録した動作確認用iPhoneをMacにつなぎます
-* Xcode画面で左上で、接続したiPhoneを選び、実行ボタン（さんかくの再生マーク）をクリックすると端末にアプリがインストールされます
+* 登録した動作確認用 iPhone を lightningケーブルで Mac につなぎます
+* Xcode 画面で左上で、接続した iPhone を選び、実行ボタン（さんかくの再生マーク）をクリックすると端末にアプリがインストールされます
 * インストールしたアプリを起動します
   * __注意__：プッシュ通知の許可を求めるアラートが出たら、必ず許可してください！
-* 起動されたらこの時点でデバイストークンが取得されます
+
+<div style="page-break-before:always"></div>
+
+* 起動されたらこの時点で Android端末 は レジスタレーションID、iOS端末 は デバイストークン が取得され、ニフティクラウド mobile backend に保存されます
 * ニフティクラウド mobile backend のダッシュボードで「データストア」＞「installation」クラスを確認してみましょう！
 
 <center><img src="readme-img/012.png" alt="画像12" width="500px"></center>
 
-* ここで端末側で起動したアプリは一度閉じておきます
-
-<div style="page-break-before:always"></div>
+* 端末側で起動したアプリは一度閉じておきます
 
 ### 7. プッシュ通知を送りましょう！
 * いよいよです！実際にプッシュ通知を送ってみましょう！
@@ -169,11 +167,9 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
 * プッシュ通知のフォームが開かれます
 * 必要な項目を入力してプッシュ通知を作成します
 
-<center><img src="readme-img/013.png" alt="画像13" width="350px"></center>
+<center><img src="readme-img/013.png" alt="画像13" width="200px"></center>
 
 * 端末を確認しましょう！
-
-<div style="page-break-before:always"></div>
 
 * 少し待つとプッシュ通知が届きます！！！
 
